@@ -138,7 +138,7 @@ Herramienta para el [[Modelado]] de Base de Datos
   SELECT * FROM clientes
   WHERE Contacto BETWEEN 'A' AND 'C'    -- Devolvera todos los registros de Contacto que empiezen por A hasta C
 ```
-- **LIKE** : Realiza busquedas usando patrones
+- **LIKE** : Realiza busquedas usando patrones(GLOB?)
 	- LIKE "HOLA" : Devuvelve todos los matchs que tengan exactamente esta palabra
 	- LIKE "H%A%" : El caracter especial %, funciona como un comodin para cualquier cantidad de caracteres. (wildcard)
 	- LIKE "\_a%" : El _ es un comodin para solo UN caracter, entonces los textos que devuevan tienen que tener ese formato especificado
