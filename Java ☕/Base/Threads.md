@@ -88,3 +88,6 @@ CLASE OBJECT
 *La sincronizacion de hilos se usara si es necesario por los requerimientos del programa.
 * HAcer un juego, donde al detener la segunda bolita me diga el porcentaje de que tan cerca se estuvo de sobreponer la primera bolita que se detuvo
 * CopyOnWriteArrayList
+
+*Combinar eventos con hilos*
+- Primero se vinculo el boton con un evento, y el evento llamara a un hilo que ejecutara todo lo que se quiere hacer cuando se activa el evento

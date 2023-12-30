@@ -14,3 +14,7 @@
 - Algunos de estos eventos realizaran una manipulacion con la BBDD(MODELO)
 	- La conexion al modelo tambien se escribe en el controlador
 - El modelo hara una respuesta que la enviara al Controlador y este a la Vista
+	- El modelo es el acceso a los datos de la BBDD y es necesario encapsular los campos que esta nos va a devolver
+
+**Notas:**
+- La conexion va siempre en el Modelo
