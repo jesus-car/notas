@@ -1,3 +1,4 @@
+# CLEAN CODE
 
 La filosofía 5S incluye estos conceptos: 
 - Seiri u organización: Es fundamental saber dónde están las cosas, mediante enfoques como el uso de nombres correctos
@@ -35,3 +36,34 @@ La filosofía 5S incluye estos conceptos:
 
 *Heuristica* : Tecnica de indagacion y descubrimiento
 
+
+## NOMBRES CON SENTIDO
+
+- Si un nombre requiere un comentario, significa que no revela su contenido
+- Debe indicar porque existe, que hace y como se usa de manera EXPLICITA con solo leer la variable, metodo o clase.
+```Java
+	public List<int[]> getFlaggedCells() { 
+		List<int[]> flaggedCells = new ArrayList<int[]>(); 
+		
+		for (int[] cell : gameBoard) 
+			if (cell[STATUS_VALUE] == FLAGGED) 
+				flaggedCells.add(cell); 
+				
+		return flaggedCells;
+```
+- Se puede mejorar cambiando la matriz **int[]** por una clase para las cell 
+```Java
+	public List<Cell> getFlaggedCells() { 
+		List<Cell> flaggedCells = new ArrayList<Cell>(); 
+		
+		for (Cell cell : gameBoard) 
+			if (cell.isFlagged()) 
+				flaggedCells.add(cell); 
+
+		return flaggedCells;
+```
+
+- Evitar usar nombres con variaciones minimas(similares)
+	- La ortografia similar de conceptos parecidos es informacion
+- No hacer referencia a palabras claves de programacion como (List, var, etc) si el dato no lo es
+- Evitar la desinformacion con nombres de variables ambiguas, pobres, abreviados
