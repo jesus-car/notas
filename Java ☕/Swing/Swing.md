@@ -10,7 +10,7 @@
 
 --- 
 
-## JFRAME
+## [**JFrame**](https://docs.oracle.com/javase/8/docs/api/javax/swing/JFrame.html "class in javax.swing")
 
 Clase que inicializa una ventana donde se podra configurar sus caracteristicas
 La mayoria de estos metodos se declaran en el constructor para que el objeto ventana se inicialize con toda personalizacion cargada
@@ -28,7 +28,7 @@ La mayoria de estos metodos se declaran en el constructor para que el objeto ven
 
 - add(Component c) : Agrega un objeto tipo componente a nuestro Frame que se instanciara
 
-## JPanel (like layer in ps)
+## [**JPanel**](https://docs.oracle.com/javase/8/docs/api/javax/swing/JPanel.html "class in javax.swing")
 
 Clase que hereda de Component
 Tomar en cuenta que la clase que herede de JPanel sera como un lienzo en blanco, donde se ira dibujando todo lo que queramos con las clases y metodos que se ven en este documento.
@@ -63,7 +63,7 @@ Tomar en cuenta que la clase que herede de JPanel sera como un lienzo en blanco,
 Su constructor recibe 2 parametros, un int(milisegundos) y un objeto que tenga implementado la interfaz ActionListener
   + Esta clase realizara una accion definida en el metodo actionPerformed de la interfaz ActionListener cada cierto tiempo.
 
-### Class Toolkit
+### [Class Toolkit](https://docs.oracle.com/javase/8/docs/api/java/awt/Toolkit.html)
 Permite acceder a los recursos de nuestro ordenador, como resolucion audio, y mas.
 
 **Metodos**
@@ -72,7 +72,7 @@ Permite acceder a los recursos de nuestro ordenador, como resolucion audio, y ma
 - height(), width() devuelven un int con el size de nuestro screen
 - Image getImage("ubicacion.png") : Devuelve un objeto Image de la ubicacion pasada
 
-### Class Image
+### [Class Image](https://docs.oracle.com/javase/8/docs/api/java/awt/Image.html)
 Almacena una imagen(Paquete Java.awt)
 ```Java
 	File myFile = new File("ubicacion.png");

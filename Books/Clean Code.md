@@ -51,6 +51,7 @@ La filosofía 5S incluye estos conceptos:
 				
 		return flaggedCells;
 ```
+
 - Se puede mejorar cambiando la matriz **int[]** por una clase para las cell 
 ```Java
 	public List<Cell> getFlaggedCells() { 

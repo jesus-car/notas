@@ -140,8 +140,15 @@ import java.lang.Math;
 
 ### INTERFACES
 
-- public interface SuperClass{} <- Se define diferente que una clase (public class SuperClass{})
-- public class SubClass implements SuperClass
+```Java
+	public interface MyInterface {                     // Syntax
+		String NOMBRE = "Pepino";
+	} 
+```
+
+```Java
+	public class UnaClase implements MyInterface { }  // Syntax
+```
 - Solo se definen METODOS mas no una implementacion de codigo.
 - Se realiza un 'contrato' con la subclase
 - Los unicos atributos que se pueden declarar son las CONSTANTES.
