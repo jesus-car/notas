@@ -6,9 +6,18 @@
 
 ## 03 - 01 - 2024
 
-- [ ] HTML Remember
-- [ ] Protocolos
+- [x] HTML Remember
+- [x] Protocolos
+- [x] Ingles
+- [x] Chino
+- [ ] Clean Code
+- [x] Genshin :P
+
+## 04 - 01 - 2024
+
+- [ ] HTML book
 - [ ] Ingles
 - [ ] Chino
 - [ ] Clean Code
+- [ ] Css Playground complete
 - [ ] Genshin :P

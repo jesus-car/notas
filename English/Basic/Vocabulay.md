@@ -30,5 +30,9 @@
 - quibbles : objeciones
 - delivers : entrega
 - sense : sentido
+- whole : entero
+- warm : calido
 
+
+#Tarea Crear un algoritmo que extraiga las filas de un documento y las ordene
 

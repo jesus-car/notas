@@ -29,7 +29,14 @@
 	- Worked(workt)
 	- Helped(jelpt)
 	- kissed(kist)
-	- 
+
+## F 
+- F
+	- Fire
+	- Freedom
+	- Fridge
+- Exception:
+	- Of (ov)
 
 ## G 
 - Followed by 'e' 'i' or 'y' usually has the soft sound like 'j'
@@ -40,10 +47,19 @@
 	- Game
 	- Gold
 	- Chewing Gum (goma de mascar)
+- Silent, just when is before 'n'
+	- Sign(sain)
+	- Foreign (forein)
+- Silent Exception
+	- Pregnant(pragnent)
+	- Magnificent(magnificent)
 - Exceptions
 	- Girl (girl)
 	- Gift (gift)
 	- Tiger(taiger)
+
+## GN 
+
 
 ## CH
 - CH
@@ -82,4 +98,4 @@
 	- Eight(eit)
 	- Night(nait)
 	- Daughter(douter)
-	- 
+

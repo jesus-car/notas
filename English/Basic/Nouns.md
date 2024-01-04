@@ -34,3 +34,10 @@
 6. If the letter before is a vowel, just add **-s**
 	- Boy - boys
 	- Day - days
+
+
+## SEASON
+- Spring
+- Summer
+- Autumn (outom)
+- Winter

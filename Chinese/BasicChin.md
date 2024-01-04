@@ -21,11 +21,58 @@
 - China : shōng guó
 - Lengua de china : shōng wén
 
-- shān : montaña
-- yǔ : Lluvia
-- Shuǐ : Agua
-- rì : Sol
-- yuè : Luna
+- shān : montaña   山
+- yǔ : Lluvia   雨
+- Shuǐ : Agua  水
+- rì : Sol  
+- yuèliàng : Luna  月亮
 - mù : Arbol
 
 *Refran chino:* shú néng shēng qiǎo
+
+## Lesson 2
+
+**Tonos:** 声调 （sheng diao)
+- ā : Es recto y suave, como uhmmm
+- á : Similar al tono cuando se hace una pregunta
+- ǎ : Baja y sube
+- à : Tono afirmativo 
+- a : Corto 
+
+**Pronunciacion**
+- La r se pronuncia suave, con la lengua pegada al paladar superior y dientes 
+- El sonido de la g es nasal
+- j : llii
+- q : chii
+- sh: sh
+- r : 
+- s : zz
+- w : u
+- e: o
+- er : ar
+- ing : iong
+
+**田字格  tián zì gé**
+- Grafico para practicar caracteres chinos. 
+
+**Numeros:**
+
+- Numeros mayusculos: Misma pronunciacion, diferente caracter
+
+| Numero | yinpin | caracter |  |
+| ---- | ---- | ---- | ---- |
+| 0 | líng | 零 | Union de 2 caracteres: Lluvia 雨 y Orden  令 |
+| 1 | yī | 一 |  |
+| 2 | èr | 二 |  |
+| 3 | sān | 三 |  |
+| 4 | sì | 四 | Similar sonido: sǐ 死 (muerto) |
+| 5 | wǔ | 五 |  |
+| 6 | liù | 六 | Excelente: liu liu da shun (que te vaya bien en todo) 66 (muy bueno) |
+| 7 | qī | 七 |  |
+| 8 | bā | 八 | Similar sonido:  fā 发 Enriquecerse |
+| 9 | jiǔ | 九 |  |
+| 10 | shí | 十 |  |
+| 20 | èr shí |  |  |
+| 21 | èr shí yī |  |  |
+| 100 | yi bǎi | 一百 |  |
+
