@@ -32,7 +32,26 @@
 - sense : sentido
 - whole : entero
 - warm : calido
+- vehicle(viecol)
+- cheetah(chita) : guepardo
 
+### Family
+- Siblings : Hermanos
+- Nephews : sobrinos
+	- niece : sobrina
+	- nephew : Sobrino
+- Grandchildren : Nietos
+
+### Adjectives
+- straight: liso
+- wavy : ondulado
+- curly : chino
+- blond : rubio
+- medium height height
+- short : baja sestatura
+- Overweight : sobrepeso
+- thin : delgado
+- 
 
 #Tarea Crear un algoritmo que extraiga las filas de un documento y las ordene
 

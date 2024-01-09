@@ -39,3 +39,31 @@
 - Los TAGS seran como palabras claves para que en un futuro poder hallar la informacion de manera rapida
 - PLUGIN: table of content 
 - Ctrl + p : Opciones
+
+**ECUACIONES**
+
+- Escribir las funciones entre \$$
+- { agrupamiento } : Las llaves funcionan para agrupar
+- \\(funcion) : Nos permite ingresar operadores matematicos complejos
+
+- \\int_{a}^{b} : $$\int_{a}^{b}$$
+- Para multiples integrales: \\iint \\iiiiint
+- \\sum_{k=0}^{n}: $$\sum_{k=0}^{n}$$
+- \\pi : pi
+- \\infty : Infinito
+- \\alpha , \\beta, \\gamma
+- \\frac {numerador} {denominador} : Fracciones
+- \\sqrt {x} : Raiz cuadrada de x
+- \\sqrt [N] {x} : Raiz N de x
+- \\cdot : Multiplicacion .
+- \\hat {a} : Acento circunflejo
+- \\check {a} : Acento breve
+- \\tilde {a} : Acento tilde
+- \\bar {a} : Acento barra
+- \\overset {B} {A} :
+- \\underset {B} {A}: $\overset{B}{x}$ 
+
+- \\lim_{x \to 0} :   $$\lim_{x \to 0}$$
+ 
+- a ^ {b+c}  : Superindice(like pow)
+- a_b : Subindice

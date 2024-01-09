@@ -61,35 +61,10 @@
 - \<article> : Porcion de contenido dentro de una section para separar distintos apartados de texto de un mismo contenido
 - \<aside> : Identifica contenido secundario relacionado con el principal. Como citas, definiciones, comentarios, etc.
 
-- \<p> : Crea un parrafo, es de las mas usadas
-- \<strong> (l): Negrita
-- \<em> (l): Cursiva
-- \<s> : Tachado
-- \<q> : Para indicar una cita corta dentro de un parrafo. Se representa entre comillas su contenido
-- \<small> : Representa el contenido de esta etiqueda con una letra de menor tamaño
-- \<cite> : Se usa para indicar el titulo de una obra(cancion, libro ,etc). Suele representarse en cursiva
-- \<abbr> : Se coloca abrebiaturas dentro de esta etiqueta, al pasar el cursor sobre este fragmento aparecera el significado completo
-	- \<abbr title="Organizacion Mundial de la Salud"> OMS \<abbr>
-- \<br> : Salto de linea, no lleva cierre.
-- \<hr> : Linea horizontal, no lleva cierre
-- \<span>(l) : Usar emojis dentro de esta etiqueta
-- \<pre> : El contenido dentro de esta etiqueta se mostrara tal cual esta, respetando saltos de linea, tabulaciones, etc
-- \<blockquote> : Para introducir citas, se suele mostrar en un formato especial
-- \<dl> : Crea una lista de terminos y definiciones
-	- \<dt> : Termino
-	- \<dd> : Definicion
 - \<div> : Contenedor generico. Ventaja es dar estilos y componertamientos al contenido agrupado mediante css
 
-- \<figure> : Es usada para contener elementos multimedia como imagenes, graficos, videos, etc.
-	- \<figcaption> : Le otorga una descripcion al contenido dentro de figure
-- \<img> (l) : Etiqueta para referenciar imagenes. No necesita cierre
-	- src="..." : Ruta de la imagen, puede ser absoluta(de internet) o relativa
-	- alt="text" : Texto descriptivo para la imagen
-	- width="234" , height="432" : Establece dimensiones de la imagen
-- \<a> (l) : En medio ira el texto que se mostrara al usuario que nos llevara al vinculo
-	- href="..." : Ruta del recurso que se va a vincular. Se puede usar enlaces externos y locales
-		- href="#ancla" : Nos lleva a la parte especifica del documento html que tenda esa 'id'
-	- target="\_blank": Abrira el hipervinculo en una nueva pestaña
+
+
 
 
 ---

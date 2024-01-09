@@ -20,22 +20,26 @@
 
 ## Adjectives
 
-| Possesive | Transtale |
-| ---- | ---- |
-| my | mi |
-| your | tu |
-| his/her/its | su |
-| our | nuestro |
-| your | su |
-| their | su |
+| Possesive | Transtale | Possessive pronoun |
+| ---- | ---- | ---- |
+| my | mi | mine |
+| your | tu | yours |
+| his/her/its | su | his/hers |
+| our | nuestro | ours |
+| your | su | yours |
+| their | su | theirs |
 
 ## Saxon Genitive (sajon llenitiv)  ('s)
 
 - Is one of the main forms we use to express possession in English
-- Substitutes the word **'of'** to show possession. Used to refer to things ownrd by people, animals and organizations
+- Substitutes the word **'of'** to show possession. Used to refer to things owned by people, animals and organizations
 - We add 's to a name(noun)
 - Example
 	- This is Tom's bycicle
 	- That is Mark's computer
 	- His dog's eyes are blue  ( the eyes of his dog are blue)
 	- My cat's tail is brown
+
+- Cuando el sustantivo esta en plural, solo se coloca el apostrofe **'** para no repetir la 's'
+	- I go to my parents' house
+	- 

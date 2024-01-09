@@ -15,9 +15,28 @@
 
 ## 04 - 01 - 2024
 
-- [ ] HTML book
+- [x] HTML book
+- [x] Ingles
+- [x] Chino
+- [ ] Clean Code
+- [x] Css Playground partial
+- [x] Genshin :P
+
+## 05 - 01 - 2024
+
+- [x] Genshin
+- [ ] Ingles
+- [x] Chino
+
+## 06/07 - 01 - 2024
+
+- [x] Break
+
+## 08 - 01 - 2024
+
 - [ ] Ingles
 - [ ] Chino
-- [ ] Clean Code
-- [ ] Css Playground complete
-- [ ] Genshin :P
+- [x] Css DH 
+- [x] HTML book 
+- [x] Genshin :P
+- [ ] U review

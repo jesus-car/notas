@@ -1,0 +1,31 @@
+
+- \<figure> : Es usada para contener elementos multimedia como imagenes, graficos, videos, etc.
+	- \<figcaption> : Le otorga una descripcion al contenido dentro de figure
+- \<picture> : Proporciona versiones alternativas de una imagen segun el dispositivo(responsive)
+	- \<source> : Especifica diferentes versiones de un recurso multimedia(responsive)
+		- src="direction_source" 
+		- type="video/mp4"
+		- media"(max-width: 480px)"
+- \<img> (l) : Etiqueta para referenciar imagenes. No necesita cierre
+	- src="..." : Ruta de la imagen, puede ser absoluta(de internet) o relativa
+	- alt="text" : Texto descriptivo para la imagen
+	- width="234" , height="432" : Establece dimensiones de la imagen
+	- usemap="#imagen" : Para usarlo en un mapa
+- \<iframe> : Inserta un documento HTML dentro de otro. Es una forma de incluir contenido de otras paginas web o aplicaciones dentro de una pagina
+	- src="URL" 
+	- width="300"
+	- height="300"
+- \<embed> : Similar a iframe, pero solo muestra contenido multimedia. Tiene los mismos atributos
+- \<video> : Insertar videos. En src va la direccion absuluta o relativa del video
+- \<audio> 
+- \<track> : Agrega subtitulos o metadatos a un audio o video, en caso de varios idiomas, se agrega varios track
+	- src="ubicacion del archivo de subtitulo"
+	- kind="subtitles" : tipo de pista
+	- srclang="es" : Especifica el idioma
+- \<map> : Crea un *mapa de imagen* el cual depende el area seleccionada de una imagen nos llevara a un vinculo
+	- name="imagen" : Se asocia a una imagen \<img> Que tenga el atributo usemap
+	- \<area> : Define las areas activas dentro de un mapa de imagen
+		- href="redireccion.com" : A donde nos llevara
+		- alt="descripcion"
+		- coords="123,256,123,234" : Coordenadas del area activa
+		- shape="rect"/"circle"  :especifica la forma del area activa
