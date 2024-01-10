@@ -39,4 +39,20 @@
 - [x] Css DH 
 - [x] HTML book 
 - [x] Genshin :P
-- [ ] U review
+- [x] U review
+
+## 09 - 01 - 2024
+
+- [x] Ingles
+- [x] Chino
+- [x] Css Complete
+- [x] U Review
+- [x] Genshin :P
+
+## 10 - 01 - 2024
+
+- [ ] Ingles
+- [ ] Chino
+- [ ] HTML book Complete
+- [ ] U Intense
+- [ ] Genshin :P

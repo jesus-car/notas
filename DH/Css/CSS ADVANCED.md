@@ -1,3 +1,7 @@
+# CSS ADVANCED
+
+## Flex Box
+
 Propiedades que se aplicaran al contenedor padre para la distribucion de sus elementos internos.
 - display: flex;  <- Cada elemento de este contenedor sera un flex-item
 - flex-wrap: nowrap; (default)  <- Apila todos los elementos en el main axis sin importar su width
@@ -34,6 +38,9 @@ Propiedades que se aplicaran al contenedor padre para la distribucion de sus ele
 - align-self:  Tiene las mismas propiedades que *align-items* pero solo aplicara al item que fue seleccionado
 - flex-grow: 0(default); Si el flex-box tiene espacio vacio, el flex-item que tenga esta propiedad en 1 ocupara el 100% del espacio disponible
 
+
+## MEDIDA RELATIVA
+
 **VIEWPORT**
 - Es el area visible de la pagina web
 - Se configura introduciendo la siguiente etiqueta en el documento html dentro de la etiqueta \<head>
@@ -50,7 +57,7 @@ Propiedades que se aplicaran al contenedor padre para la distribucion de sus ele
 - em: Toma de referencia al elemento padre
 - rem : Toma referencia a la medida del html, por default 16px
 
-**MEDIA QUERIES**
+## MEDIA QUERI
 
 Aplican un conjunto de estilos si se cumplen unas condiciones
 Se recomienda escribirlo al final de la hoja de estilo
@@ -79,3 +86,5 @@ Orientacion:
 		background: blue;
 	}
 ```
+
+

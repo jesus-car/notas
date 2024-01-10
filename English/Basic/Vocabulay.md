@@ -53,5 +53,37 @@
 - thin : delgado
 - 
 
+### Professions
+
+*Whats your profession? / What's your job? / What do you do for a living? / Where do you work?*
+
+- Writer (escritor/a) / write
+- Driver(chofer) / drive
+- Painter(pintor/a) / paint
+- Manager(gestor) / manage(gestionar)
+- Baker(panadero) / bake(cocer-cocinar)
+- Explorer(explorador) / explore(explorar)
+- Gardener(jardinero) / garden(jardin)
+- Dancer(Bailarin) / dance
+
+- Architect
+- Athlete
+- Businessman(Businesswoman) : Empresario/a
+- Dentist
+- Mason
+- Butcher : Carnicero
+- Fisherman : Pescador
+- Clown : Payaso
+- Psychologist(saicoloyits)
+- Fireman : Bombero
+- Judge(llach) : Juez
+- Priest : Sacerdote
+- Journalist
+- Postman
+- Lawyer : Abogado
+- Veterinarian
+- Photographer
+
+
 #Tarea Crear un algoritmo que extraiga las filas de un documento y las ordene
 

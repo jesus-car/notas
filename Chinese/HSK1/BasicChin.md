@@ -10,7 +10,7 @@
 **PRUEBA HSK** (Hàn yǔ shuǐ píng kǎo shì)
 - Aprender chino es como armar un puzzle, depende del orden del puzzle significara una y otra cosa
 
-## Lesson 1
+## Lesson 2
 
 - Bandera china / Bandera roja de las 5 estrellasa : wǔ xīng hóng qí
 - Capital : běi jīng (pequin)
@@ -30,7 +30,7 @@
 
 *Refran chino:* shú néng shēng qiǎo
 
-## Lesson 2
+## Lesson 3
 
 **Tonos:** 声调 （sheng diao)
 - ā : Es recto y suave, como uhmmm
@@ -47,6 +47,9 @@
 - sh: sh
 - r : 
 - s : zz
+- z : zzzz
+- t: d (soltando aire)
+- h : jo
 - w : u
 - e: o
 - er : ar
@@ -59,20 +62,20 @@
 
 - Numeros mayusculos: Misma pronunciacion, diferente caracter
 
-| Numero | yinpin | caracter |  |
-| ---- | ---- | ---- | ---- |
-| 0 | líng | 零 | Union de 2 caracteres: Lluvia 雨 y Orden  令 |
-| 1 | yī | 一 |  |
-| 2 | èr | 二 |  |
-| 3 | sān | 三 |  |
-| 4 | sì | 四 | Similar sonido: sǐ 死 (muerto) |
-| 5 | wǔ | 五 |  |
-| 6 | liù | 六 | Excelente: liu liu da shun (que te vaya bien en todo) 66 (muy bueno) |
-| 7 | qī | 七 |  |
-| 8 | bā | 八 | Similar sonido:  fā 发 Enriquecerse |
-| 9 | jiǔ | 九 |  |
-| 10 | shí | 十 |  |
-| 20 | èr shí |  |  |
-| 21 | èr shí yī |  |  |
-| 100 | yi bǎi | 一百 |  |
+| Numero | yinpin | Pronunciacion | caracter |  |
+| ---- | ---- | ---- | ---- | ---- |
+| 0 | líng |  | 零 | Union de 2 caracteres: Lluvia 雨 y Orden  令 |
+| 1 | yī |  | 一 |  |
+| 2 | èr | or | 二 |  |
+| 3 | sān |  | 三 |  |
+| 4 | sì | zzu | 四 | Similar sonido: sǐ 死 (muerto) |
+| 5 | wǔ |  | 五 |  |
+| 6 | liù |  | 六 | Excelente: liu liu da shun (que te vaya bien en todo) 66 (muy bueno) |
+| 7 | qī |  | 七 |  |
+| 8 | bā |  | 八 | Similar sonido:  fā 发 Enriquecerse |
+| 9 | jiǔ |  | 九 |  |
+| 10 | shí |  | 十 |  |
+| 20 | èr shí |  |  |  |
+| 21 | èr shí yī |  |  |  |
+| 100 | yī bǎi |  | 一百 |  |
 
