@@ -1,10 +1,10 @@
 - Foreword: prefacio
 - whose : cuyo
-- dump: humedo
+- damp/demp: humedo
 -  chilly weather : clima frio
 - charm: encanto
-- wise : sabio, inteligente
-- witty : ingenioso
+- wise(uaizz) : sabio, inteligente
+- witty(widi) : ingenioso
 - flap : solapa
 - delicacy : delicadeza
 - that it bore this : que llevaba esto
@@ -34,6 +34,9 @@
 - warm : calido
 - vehicle(viecol)
 - cheetah(chita) : guepardo
+- detrimental: perjudiciales
+- unpleasant: desagradable
+- of utmost importance : De suma importancia
 
 ### Family
 - Siblings : Hermanos

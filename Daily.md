@@ -51,8 +51,8 @@
 
 ## 10 - 01 - 2024
 
-- [ ] Ingles
+- [x] Ingles
 - [ ] Chino
-- [ ] HTML book Complete
+- [x] HTML book Complete
 - [ ] U Intense
-- [ ] Genshin :P
+- [x] Genshin :P

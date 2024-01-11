@@ -24,6 +24,13 @@
 
 - transform-origin: bottom right ( 50 px ) : Indica el punto de rotacion del elemento
 
+**Ejemplo:**
+```css
+	.mi-elemento-html:hover {
+		transform: rotate(20deg);
+	}
+```
+
 ## TRANSICIONES
 
 Nos permite realizar cambios de estado de elementos(transform) de manera sutil y no brusca como se vino dando

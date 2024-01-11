@@ -83,7 +83,13 @@ Orientacion:
 - Agrega una condicion si el dispositivo se encuentra en posicion vertical/horizontal
 ```css
 	@media(max-width: 460px) and (orientation: landscape){
-		background: blue;
+		.mi-elemento{
+			background: blue;
+		}
+
+		.mi-segundo-elemento {
+			text-align: center;
+		}
 	}
 ```
 

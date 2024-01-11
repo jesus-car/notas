@@ -23,7 +23,8 @@
 	- hidden
 	- image
 	- month
-	- number
+	- number:
+		- min/max="x" : Establece un liminte minimo y maximo de numero que se puede ingresar
 	- password
 	- radio: Nos da un boton circular que se puede marcar solo una opcion de un grupo de type="radio". Podemos ponerlo dentro de un label.
 		- name="x" : Todos los botones del mismo tema deben tener el mismo atributo name

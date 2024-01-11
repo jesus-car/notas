@@ -36,7 +36,7 @@ import java.lang.Math;
   + Existen 4 tipo s de Garbage: Serial GC, Parallel GC(defecto), Concurrent Mark Sweep(GC), G1
 
 - Se puede usar dentro de la misma clase uno de sus metodos solo llamando al metodo, pero es recomendable mejor anteponer el this.method() para especificar que se trata de un metodo del mismo objeto.
-  + this.methodName(parameter) si el metodo esta dentro de la misma clase
+	- this.methodName(parameter) si el metodo esta dentro de la misma clase
 - Los datos tipo primitivo se hace una copia del dato cuando se hace referencia a estos.
 - Los datos tipo objeto las variables q se asigna al objeto solo apuntan al objeto, mas no realizan una copia
 * Algunos metodos no devuelven un objeto, solo devuelven la referencia al objeto porque no lo vuelve a crear.

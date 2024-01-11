@@ -42,6 +42,7 @@ Obtendremos este objeto siempre y cuando se llegue a concretar la conexion con l
 	CallableStatement miSentencia = miConexion.prepareCall("{call mi_stored_procedure}")   // Si no tiene parametro el StoredProcedure
 	CallableStatement miSentencia = miConexion.prepareCall("{call mi_stored_procedure(?, ?)}") // Si recibe parametro el StoredProcedure, entonces se coloca '?' segun la cantidad de pmtr q reciba
 ```
+
 - void setAutocommite(boolean b) : (true) Las instrucciones SQL del programa seran tratados de forma individual. (false) Las instrucciones SQL podrian ser tratadas como bloque
 - void commit() : Confirma que el bloque de instrucciones se realizo correctamente y hace permanentes los cambios.
 - void rollback() : Si falla algo en la transaccion, revierte los cambios realizados, suele ir en el catch

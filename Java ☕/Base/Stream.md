@@ -1,4 +1,4 @@
-========== STREAMS ============
+
 - Util para enviar informacion por la reD, leer y escribir ficheros.
 - La informacion de un programa es temporal, porque se guarda en la memoria ram
 - Aveces es necesario almacenarla en un dispositivo de manera permanente en forma de ficheros.

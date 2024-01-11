@@ -33,13 +33,12 @@
 
 - Is one of the main forms we use to express possession in English
 - Substitutes the word **'of'** to show possession. Used to refer to things owned by people, animals and organizations
-- We add 's to a name(noun)
+- We add 's to a name(pronouns)
 - Example
 	- This is Tom's bycicle
 	- That is Mark's computer
 	- His dog's eyes are blue  ( the eyes of his dog are blue)
 	- My cat's tail is brown
 
-- Cuando el sustantivo esta en plural, solo se coloca el apostrofe **'** para no repetir la 's'
+- Cuando el pronombre esta en plural, solo se coloca el apostrofe **'** para no repetir la 's'
 	- I go to my parents' house
-	- 

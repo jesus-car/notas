@@ -18,7 +18,7 @@
 - heard(jert)
 
 
-## CONTINUES VERBS
+## PRESENT CONTINUES
 
 
 - Se agrega *ing* al verbo.
