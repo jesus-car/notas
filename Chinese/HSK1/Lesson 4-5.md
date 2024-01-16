@@ -10,7 +10,7 @@
 | o | ó | ò | ǒ | ō |
 | u | ú | ù | ǔ | ū |
 
-## Pronoun
+## Pronouns
 
 | Pronouns | Pinyin | Caracter |  |
 | ---- | ---- | ---- | ---- |

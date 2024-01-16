@@ -37,15 +37,20 @@
 - detrimental: perjudiciales
 - unpleasant: desagradable
 - of utmost importance : De suma importancia
-
-### Family
+- hear(jier)
+- heard(jert)
+- ladder : Escalera
+- roof : Techo
+- polite : educado
+- seaside : Playa
+## Family
 - Siblings : Hermanos
 - Nephews : sobrinos
 	- niece : sobrina
 	- nephew : Sobrino
 - Grandchildren : Nietos
 
-### Adjectives
+## Adjectives
 - straight: liso
 - wavy : ondulado
 - curly : chino
@@ -56,7 +61,7 @@
 - thin : delgado
 - 
 
-### Professions
+## Professions
 
 *Whats your profession? / What's your job? / What do you do for a living? / Where do you work?*
 
@@ -86,6 +91,37 @@
 - Lawyer : Abogado
 - Veterinarian
 - Photographer
+
+## School subjects
+
+- Mathematics
+- Science
+- Geography
+- Biology
+- History
+- Chemistry(kemestri)
+- backup: mochila
+
+
+## Restaurant
+
+- Lunch : Almuerzo
+- Snack time: Merienda
+- Dinner: Cena
+- Brandy
+- Spritz
+- Juice
+- STarter : entrada
+- First course : Primer plato
+- Second course: Segundo plato
+- Beverages : Bebidas
+- Soft drinks : Bebidas analcoholicas
+- Alcoholic drinks : 
+- Deserts: Postres
+- Waitress : Mesera
+- beef : carne
+- Meal : Comida
+
 
 
 #Tarea Crear un algoritmo que extraiga las filas de un documento y las ordene

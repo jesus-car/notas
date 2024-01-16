@@ -6,3 +6,14 @@
 **Composicion de funciones:** ^composicion
 
 - $f(x) \circ g(x) = f(g(x))$  
+
+**Razones trigonometricas:**
+
+| Razon | 0 | 90 | 180 | 270 | 360 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| $\sin$ | 0 | 1 | 0 | -1 | 0 |
+| $\cos$ | 1 | 0 | -1 | 0 | 1 |
+| $\tan$ | 0 | Ind | 0 | Ind | 0 |
+| $\cot$ | indef | 0 | Ind | 0 | Ind |
+| $\sec$ | 1 | Ind | -1 | Ind | 1 |
+| $\csc$ | indef | 1 | Ind | -1 | Ind |

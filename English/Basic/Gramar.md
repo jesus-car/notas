@@ -42,3 +42,11 @@
 
 - Cuando el pronombre esta en plural, solo se coloca el apostrofe **'** para no repetir la 's'
 	- I go to my parents' house
+
+
+## TOPIC
+
+ - Are you good in/at ... ? / How good are you in/at? / Are you bad in/at ...? 
+	 - Im good in/at Informatic System
+
+- Can I borrow(barrauw) your ...? / May I borrow your ... ? (Me puedes prestar tu..? )

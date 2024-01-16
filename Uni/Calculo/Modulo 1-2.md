@@ -18,6 +18,9 @@ $$f'(a) = \lim_{h \to 0} \frac {{f(a+h)} - f(a)} {h}$$
 3. y'
 4. $D_x[f(x)]$ 
 
+**Interpretacion:**
+- Geometrica: Representa la pendiente de la recta tangente
+- Fisica: Razon de cambio instantanea de $y=f(x), x=x_0$ 
 ### Reglas de derivacion:
 
 - Derivada de una constante :  $f(x)=k$    $k\in \mathbb{R}$   $f'(x) = 0$ 
@@ -50,6 +53,20 @@ $$f'(a) = \lim_{h \to 0} \frac {{f(a+h)} - f(a)} {h}$$
 
 **CONSEJO:** En ejercicio el proble se desglosa, si es un polinomio se usa la regla de adicion, si es una division de polinomios se usa la regla de la division de polinomios y asi
 
+### En FISICA
+
+Hallamos la derivada en una razon de cambio instantanea
+
+- Velocidad(instantanea) es la derivada de la funcion *posicion* : $v(t)=x'(t)$
+- Aceleracion es la derivada de la velocidad respecto al tiempo *(Segunda derivada de la posicion)*: $a(t)=v'(t)$
+- Rapidez: Valor absoluto de la velocidad
+
+
+**Ejemplo:** Halle la razon de cambio instantateo de $f(x) = x^3+1$ en $x=1$ 
+- Primero se deriva la funcion
+- Luego se reemplaza en la derivada x por el valor que me pide
+
+---
 
 ## MODULO 2
 
@@ -78,11 +95,27 @@ $$f'(a) = \lim_{h \to 0} \frac {{f(a+h)} - f(a)} {h}$$
 | $arc\sec u$ | $\frac {u'}{\|u\|\sqrt{u^2-1}}$ |
 | $arc\csc u$  | $\frac {-u'}{\|u\|\sqrt{u^2-1}}$ |
 - Ejemplo: $$y=\arcsin (2x)\longrightarrow y'=\frac{(2x)'}{\sqrt{1-(2x)^2}}\longrightarrow y'=\frac{2}{\sqrt{1-4x}}$$ 
+
 **Formas indeterminadas y la regla de L'Hospital**: Se usa para calcular limites indeterminados $\frac{0}{0}$ ; $\frac{\infty}{\infty}$  
 
 - Cuando el limite es indeterminado, se deriva cada una de las funciones y se vuelve a hallar el limite, si sigue siendo indeterminado se repite el procedimiento hasta que la indeterminacion desaparezca
 
 $$\lim_{x\to c}=\frac{f(x)}{g(x)}=\lim_{x\to c}\frac{f'(x)}{g'(x)}$$
+ 
+- Existen 5 formas indeterminadas que usando manipulaciones algebraicas o logaritmos se pueden transformar a las formas indeterminadas basicas: $\infty - \infty, 0\cdot \infty, 0^0,\infty ^ 0, 1^\infty$   
+- Ejem: Se transforma la funcion tal que consigamos la expresion $\frac{0}{0}$ o $\frac{\infty}{\infty}$   usando logaritmos
+![[Pasted image 20240111002231.png]] 
 
-![[Pasted image 20240111002231.png]]
+**Derivada implicita:** Funciones donde no se ha despejado Y. *A mi parecer es mas facil derivar de esta manera que derivar una division*
 
+- Siempre que se derive la letra Y se le multiplica y'
+
+- $y = 3x^2+2x\longrightarrow \frac{dy}{dx}=6x + 2$  En este ejemplo tambien se deriva y, pero como se deriva respecto a x se tiene que colocar la notacion, pero el y desapareceria por la regla de derivacion
+
+- $y^2=2x^3+5 \longrightarrow y'y=6x\longrightarrow y'=\frac{6x}{y}$  
+
+- $2x^2+3xy+y^2=5 \longrightarrow 4x+3xy'+3y+2yy'=0$  . **Ojo:** '3xy' Se deriva como una multiplicacion  
+
+- 2do Metodo: $$\frac{dy}{dx}=-\frac{F_x(x;y)}{F_y(x;y)}$$
+	- Numerador: La y se considera como constante y solo se deriva la x
+	- Denominador: La x se considera como constante y solo se deriva la y

@@ -152,3 +152,10 @@
 | 昨天 | zuó tiān | ayer | [20](https://chinadesdeelsur.blogspot.com/2021/01/chino-moderno-20.html) |
 | 坐 | zuò | sentarse | [17](https://chinadesdeelsur.blogspot.com/2021/01/chino-moderno-17.html) |
 | 做 | zuò | hacer | [12](https://chinadesdeelsur.blogspot.com/2020/12/chino-moderno-12.html) |
+
+
+**Mine:**
+
+| Caracter | Pinyin | Spanish |
+| ---- | ---- | ---- |
+| 我相信 你 | wǒ xiāngxìn nǐ | I trust you |

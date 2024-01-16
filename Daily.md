@@ -52,7 +52,27 @@
 ## 10 - 01 - 2024
 
 - [x] Ingles
-- [ ] Chino
+- [x] Chino
 - [x] HTML book Complete
-- [ ] U Intense
+- [x] U Intense
+- [x] Genshin :P
+
+## 11 - 01 - 2024
+
+- [x] Ingles
+- [x] Chino
+- [x] U finish week
+- [x] Genshin :P
+- [ ] Java Obsidian Refactor all
+
+## 12/13/14 - 01 - 2024
+
+- [x] Ni pinga, ponerse al dia con mis series xd 
+
+## 15 - 01 - 2024
+
+- [x] Ingles
+- [ ] Chino
+- [x] U
+- [x] Java Obsidian refactor all
 - [x] Genshin :P
