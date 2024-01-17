@@ -56,6 +56,8 @@ Obtendremos este objeto siempre y cuando se llegue a concretar la conexion con l
 - DatabaseMetaData getMetaData() : Devuelve un objeto que nos brindara toda la informacion de metadatos
 
 - Motor esta usando mysql . MySAM no permite TRANSACCIONES deberian cambiar de motor a InnoDB
+
+---
 ## [**Interface Statement**](https://docs.oracle.com/javase/8/docs/api/java/sql/Statement.html "interface in java.sql")
 
 Objetos que pertenezcan a este Interfaz nos permitira realizar Querys
@@ -64,7 +66,7 @@ Objetos que pertenezcan a este Interfaz nos permitira realizar Querys
 - ResultSet executeQuery(String miQuery) : Devolvera un objeto [[JDBC#[**Interfaz ResultSet**](https //docs.oracle.com/javase/8/docs/api/java/sql/ResultSet.html "interface in java.sql")|ResultSet]]. Sirve para querys SELECT.
 - int executeUpdate(String miQuery): Sirve para realizar modificaciones en los registros, INSERT, DELETE, UPDATE
 
-
+---
 ## [**Interface ResultSet**](https://docs.oracle.com/javase/8/docs/api/java/sql/ResultSet.html "interface in java.sql")
 
 Objeto que representa una tabla de datos resultado de un executeQuery
@@ -74,6 +76,7 @@ Objeto que representa una tabla de datos resultado de un executeQuery
 - String getString(String field):  Devuelve el registro en forma de String de la columna especificada
 - int getInt(String field): Devuelve el registro en forma de 'int' de la columna especificada
 
+---
 ## [**Interface PreparedStatement**](https://docs.oracle.com/javase/8/docs/api/java/sql/PreparedStatement.html "interface in java.sql")
 
 Objeto que representa una consulta preparada la cual se manipulara segun sea conveniente.
@@ -86,6 +89,7 @@ Hereda de Statement
 - int executeUpdate(): Ejecuta la query preparada 
 - boolean execute() : 
 
+---
 ## [**Interface CallableStatement**](https://docs.oracle.com/javase/8/docs/api/java/sql/CallableStatement.html "interface in java.sql")
 
 Objeto con el cual podras ejecutar un SQL Stored Procedures

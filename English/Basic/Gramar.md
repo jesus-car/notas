@@ -50,3 +50,12 @@
 	 - Im good in/at Informatic System
 
 - Can I borrow(barrauw) your ...? / May I borrow your ... ? (Me puedes prestar tu..? )
+
+
+| For | En lugar de/ a favor de / a cambio de | Intencionado para |
+| ---- | ---- | ---- |
+| by | por medio de (Usan un movil para conseguir algo) | fecha(para el lunes) / hora limite |
+| per | en proporcion a |  |
+| because of | a causa de / por motivo de |  |
+| through | a traves de |  |
+| to |  | a fin de / con destino a |

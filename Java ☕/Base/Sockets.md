@@ -6,7 +6,9 @@ Siempre es util usar la  [API JAVA](https://docs.oracle.com/javase/8/docs/api/)
 - Para construir un socket se necesita la direccion del servidor( ip o dominio)
 - Puerto de recepcion: El puerto por donde se trasladaran la informacion
 - Se usara la clase OutputStream(cliente)
-    + InputStream(Servidor) : Estara a la escucha del cliente
+- InputStream(Servidor) : Estara a la escucha del cliente
+
+- La mayoria de las clases Input/Output estan en Java.io
 
 ## Procedimiento
 
@@ -63,7 +65,7 @@ Siempre es util usar la  [API JAVA](https://docs.oracle.com/javase/8/docs/api/)
 - Nos permite enviar datos atraves de un socket, el constructor recibe como parametro un objeto OutputStream
 
 - **Constructor:**
-	- DataOutputStream(OutputStream out)
+	- DataOutputStream([OutputStream](https://docs.oracle.com/javase/8/docs/api/java/io/OutputStream.html "class in java.io") out)
 
 - **Metodos:**
 	- void writeUTF(String s) : Envia por el socket pasado al constructor un string
@@ -74,7 +76,7 @@ Siempre es util usar la  [API JAVA](https://docs.oracle.com/javase/8/docs/api/)
 ```
 
 ---
-## [**ServerSocket**](https://docs.oracle.com/javase/8/docs/api/java/net/ServerSocket.html "class in java.net")
+## [**Class ServerSocket**](https://docs.oracle.com/javase/8/docs/api/java/net/ServerSocket.html "class in java.net")
 
 - Es el objeto que se usara para recibir request
 - **Constructor:**
@@ -82,32 +84,48 @@ Siempre es util usar la  [API JAVA](https://docs.oracle.com/javase/8/docs/api/)
 
 - **Metodos:**
 	- Socket accept(): Pone al puerto creado en escucha y lo cierra cuando se realiza la conexion, devolviendo la conexion en un objeto tipo Socket.
-	- DataInputStream: Permite recibir datos, recibe como parametro un objeto InputStream
-	
+
+
+---
+
+## [**Class DataInputStream**](https://docs.oracle.com/javase/8/docs/api/java/io/DataInputStream.html "class in java.io")
+
+- Objeto que recibira los datos que un usuario nos manda por el puerto previamente abierto
+- **Constructor:**
+	- DataInputStream(InputStream in) : Recibe como parametro un objeto InputStream creado por el metodo getInputStream de la clase Socket
+
+- **Metodos:**
+	- String readUTF() : Lee el los bytes recibidos y lo devuelve como String
+
 ```Java
 	DataInputStream recibiendo = new DataInputStream(cliente.getInputStream());
 	recibiendo.readUTF(); // Lee el string del cliente y se lo almacena en un String o donde quieras.
 ```
 
+
 ---
 
+## [**Class InetAddress**](https://docs.oracle.com/javase/8/docs/api/java/net/InetAddress.html "class in java.net")
 
-OBJECTOUTPUTSTREAM
-- Manipula objetos Java atravez de un stream
-- Recibe como parametro un objeto OutputStream
-- Metodo writeObject(Object o); Envia un Objeto por el stream creado al destinatario especificado en el parametro que recibio el constructor.
+- Sirve para obtener las direcciones IP de nombres de host
+- **Constructor:** Default
+
+- **Metodos:**
+	- String getHostAddress(): Devuelve la ip del presente equipos en String
+	- static InetAddress getLocalHost: El objeto devuelto representa la ip local
+
+---
+
+## Creacion de un chat
+
+**Requisitos:**
+- Un servidor recibira los mensajes de los clientes, y este se encargara de mandarlo a sus destinatarios
+- Tanto como el cliente como el servidor tendran sockets de entrada y salida
+- Usando diferentes componentes: JLabel, JTextField, JList, JTable, JComboBox, JTextArea(tiene todo elmismo formato todo dentro), JTextPane, 
+- Cuando alguien abre la aplicacion se agregara en una lista de conectados que tendra la aplicacion de todos los clientes
+- Como se cargaria dinamicamente cuando un cliente abre la aplicacion en la lista de conectados?, cada vez que alguien se conecte poniendo su nick en la primera pregunta nos enviara su informacion, ip y nombre que sera almacenado en el servidor, este objeto se almacenara en una collection y sera reenviado a todos los clientes conectados, ahora como carga dinamicamente la aplicacion del cliente cuando recibe esta nueva informacion?, supongo que con un append, igual que el panel del chat
+- Cuando se conecte o desconecte un cliente ser capaz de en tiempo real sacarlo de la lista, como ? idk
+- Se puede usar un MAP para vincular la ip con el nick
 
 
-* Clase InetAddress: 
-  + getHostAddress(): Devuelve en String la ip
-
-
-
-* CREACION DE UN CHAT: UN SERVIDOR SERA EL QUE RECIBA LOS MENSAJES DE LOPS CLIENTES Y EL MISMO SE ENCARGARA DE DISTRIBUIRLOS.
-  TANTO COMO EL CLIENTE COMO EL SERVIDAR TENDRAN QUE TENER SOCKETS DE ENTRADA Y SALIDA DE DATOS
-  + Usando diferentes componentes: JLabel, JTextField, JList, JTable, JComboBox, JTextArea(tiene todo elmismo formato todo dentro), JTextPane, 
-  + Cuando alguien abre la aplicacion se agregara en una lista de conectados que tendra la aplicacion de todos los clientes
-  + Como se cargaria dinamicamente cuando un cliente abre la aplicacion en la lista de conectados?, cada vez que alguien se conecte poniendo su nick en la primera pregunta nos enviara su informacion, ip y nombre que sera almacenado en el servidor, este objeto se almacenara en una collection y sera reenviado a todos los clientes conectados, ahora como carga dinamicamente la aplicacion del cliente cuando recibe esta nueva informacion?, supongo que con un append, igual que el panel del chat.
-  + Cuando se conecte o desconecte un cliente ser capaz de en tiempo real sacarlo de la lista, como ? idk
-  + Se puede usar un MAP para vincular la ip con el nick
-* EL STREAM ES UN CANAL POR DONDE SE MANDARA LA INFORMACION AL LUGAR DONDE SE COLOCO EN SU ARGUMENTO, PUEDE SER UN SOCKETS, EL PROPIO SO, POR LA WEB, ETC.
+*EL STREAM ES UN CANAL POR DONDE SE MANDARA LA INFORMACION AL LUGAR DONDE SE COLOCO EN SU ARGUMENTO, PUEDE SER UN SOCKETS, EL PROPIO SO, POR LA WEB, ETC.*

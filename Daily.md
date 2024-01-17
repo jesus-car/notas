@@ -74,5 +74,22 @@
 - [x] Ingles
 - [ ] Chino
 - [x] U
-- [x] Java Obsidian refactor all
+- [x] Java Obsidian refactor
 - [x] Genshin :P
+
+
+## 16 - 01 - 2024
+
+- [x] Ingles
+- [x] Chino
+- [x] U
+- [x] Java Obsidian refactor
+- [x] Genshin :P
+
+## 17 - 01 - 2024
+
+- [ ] Ingles
+- [ ] Chino
+- [ ] U
+- [ ] Java Obsidian refactor
+- [ ] Genshin :P

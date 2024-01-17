@@ -2,13 +2,13 @@
 
 ## PRESENT SIMPLE
 
-| Pronouns | To be | To have | contract | To like | To do | To want | To eat | To drink |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| I | am | have | I've | like | do | want |  |  |
-| You | are | have | you've | like | do | want |  |  |
-| He/she/it | is | has | he's | likes | does | wants | eats | drinks |
-| we | are | have | we've | like | do | want |  |  |
-| They | are | have | they've | like | do | want |  |  |
+| Pronouns | To be | To have | contract | To like | To do |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| I | am | have | I've | like | do |
+| You | are | have | you've | like | do |
+| He/she/it | is | has | he's | likes | does |
+| we | are | have | we've | like | do |
+| They | are | have | they've | like | do |
 
 - We use do to make negatives sentences(dont), to make question forms, and to make the verb more emphatic
 	- Se usa para dar forma negativa a otros verbos: i dont sleep well on my chair
@@ -16,6 +16,7 @@
 		- She doesn't have the book
 	- Tambien para negar oraciones en present continiue
 	- *Interrogative form:* DO + subject + maint verb / do you watch the movie? / does she write songs? / do they play soccer?
+- La mayoria de los verbos en present simple in thirty person need to plus 's' in the end.
 
 - **want** : if it goes next to a verb, it has to be in infinitive form
 	- I wan TO DRINK
@@ -82,6 +83,9 @@ They don't change their form and they have no infinitive
 - *Question:* Would you like to + verb ?
 - *Answer:* Yes, I would / No, I would not ( wouldn't[wudunt])
 
+- **Nota:** A diferencia de would solo, en este no hay un condicional, el would no reemplaza al want como would like
+	- I would work in a bank *if* it wasn't boring
+
 | Pronoun | Contract form | Negative form |
 | ---- | ---- | ---- |
 |  | I'd like | I would not like |
@@ -94,14 +98,31 @@ They don't change their form and they have no infinitive
 
 ## VOCABULARY
 
-| English | Spanish |  |
-| ---- | ---- | ---- |
-| Borrow (Borrowed) | Es el que recibe el prestamo, por si quiero pedir prestado |  |
-| Lend(lent) | Es quien da el prestamo |  |
-|  |  |  |
-| For | En lugar de/ a favor de / a cambio de | Intencionado para |
-| by | por medio de (Usan un movil para conseguir algo) | fecha(para el lunes) / hora limite |
-| per | en proporcion a |  |
-| because of | a causa de / por motivo de |  |
-| through | a traves de |  |
-| to |  | a fin de / con destino a |
+| English | Spanish |
+| ---- | ---- |
+| Borrow (Borrowed) | Es el que recibe el prestamo, por si quiero pedir prestado |
+| Lend(lent) | Es quien da el prestamo |
+| To cook | Cocinar |
+| To like |  |
+| To want |  |
+| To blend | Licuar |
+| To bake | Hornear |
+| To boil | Herbir |
+| To add | añadir |
+| To drain | Escurrir |
+| To fry | freir |
+| To roast | asar |
+| To mix | mezclar |
+| To cut | Cortar |
+| To knead(need) | amasar |
+| To dunk | mojar |
+| To sell | Vender |
+| To try on | Probar(ropa) |
+| To wear | Llevar (ropa) |
+| To suit | Quedar(me queda) |
+| To dress up | Vestirse elegante / disfrazarse |
+| To dress down | Vestirse informal(casual) |
+| To undress | Desvertirse |
+| To put on | Ponerse(ropa) |
+| To |  |
+

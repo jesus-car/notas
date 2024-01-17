@@ -44,6 +44,15 @@ $$f'(a) = \lim_{h \to 0} \frac {{f(a+h)} - f(a)} {h}$$
 | $f(x)=\sec x$ | $f'(x)=\sec x \cdot \tan x$ |
 | $f(x)= \csc x$ | $f'(x)=-\csc x \cdot \cot x$ |
 
+| Funcion $f(x)$ | Derivada $f'(x)$ |
+| ---- | ---- |
+| $\sin x$ | $\cos x \cdot x'$ |
+| $\cos x$ | $-\sin x\cdot x'$ |
+| $\tan x$ | $\sec ^2 x\cdot x'$ |
+| $\cot x$ | $-\csc ^2x\cdot x'$ |
+| $\sec x$ | $\sec x \cdot \tan x\cdot x'$ |
+| $\csc x$ | $-\csc x \cdot \cot x\cdot x'$ |
+
 - Derivada de la multiplicacion por un escalar de la adicion, sustraccion multiplicacion y division de funciones
 
 	- Multiplicacion por un escalar: $$\frac{d}{dx}[kf(x)] = k\frac{d}{dx}f(x)=kf'(x)$$

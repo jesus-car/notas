@@ -36,13 +36,25 @@
 - cheetah(chita) : guepardo
 - detrimental: perjudiciales
 - unpleasant: desagradable
-- of utmost importance : De suma importancia
 - hear(jier)
 - heard(jert)
 - ladder : Escalera
 - roof : Techo
 - polite : educado
 - seaside : Playa
+
+## PHRASES
+
+- Want to have a look : Quiere echar un vistazo
+- May I have a look at? : Puedo echar un vistazo?
+- Of utmost importance : De suma importancia
+- I try it on : Me lo pruebo(clothes)
+	- I'll try shoes on : Me probare los zapatos.
+	- May I try it on? : Podria probarme esto?
+- It's over there : Esta alla
+- Doesn't suit me well : No me queda bien
+- too big : Muy grande
+- How much is it? / Which is the price? : Cual es el precio?
 ## Family
 - Siblings : Hermanos
 - Nephews : sobrinos
@@ -122,7 +134,57 @@
 - beef : carne
 - Meal : Comida
 
+## KITCHEN
 
+- pot : olla
+- ladle : Cucharon
+- Blender : Licuadora
+- Sugar bowl : 
+- Skillet : Sarten
+- Coffe maker : Cafetera
+- Rolling pin
+- Carving fork
+- Colander : Colador
+- Chopping board : Tabla(de cocina)
+- Weight scale
+- Oven : horno
+
+## CLOTHES SHOP
+
+- Accessories : Acesorios
+- womanswear(wimenswer) : Ropa de mujer
+- Skirt : Falda
+- Blouse/shirt : Blusa
+- Nightgown : Bata de noche
+- Pajama/pyjama
+- Bra
+- Bikini
+- High heel shoes : Tacones altos
+- men's clothing : Ropa de hombre
+- Vest : Chaleco
+- JAcket : Chaqueta
+- Bow tie: Corbata de moño
+- Tie : Corbata
+- Underwear boxer : ropa interior
+- Trousers : Pantalones
+- Belt : Correa
+- Dress shirt : Camisa de vestir
+- Scarf : Bufanda
+- Glove : Guante
+- Card holder
+- Coin purse : Monedero
+- Winter hat : 
+- Suitcase : Maleta
+- Cap : gorra
+- Waist bag : Canguro
+- Necklace : Collar
+- Bracelet
+- Earring : Arete
+- Anklets: Tobilleras
+- Purse: Cartera
+- Glasses/sunglasses
+- Socks : Medias
+- fitting room / changing room : Probador
 
 #Tarea Crear un algoritmo que extraiga las filas de un documento y las ordene
 

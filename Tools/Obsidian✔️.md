@@ -67,3 +67,9 @@
  
 - a ^ {b+c}  : Superindice(like pow)
 - a_b : Subindice
+
+
+- \\left\{   : Agrupara todo lo que se encuentre en medio y colocara el siguiente parametro a todo el conjunto
+- \\right. : Si no se quiere colocar nada en ese lado, se agrega un punto '.'
+
+$$y=\left\{ 2x + y =5 \atop 1 x + y = 4 \right.$$

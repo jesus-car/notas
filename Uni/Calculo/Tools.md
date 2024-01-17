@@ -17,3 +17,8 @@
 | $\cot$ | indef | 0 | Ind | 0 | Ind |
 | $\sec$ | 1 | Ind | -1 | Ind | 1 |
 | $\csc$ | indef | 1 | Ind | -1 | Ind |
+
+**Identidades trigonometricas:**
+
+- $2\sin x \cdot \cos x = \sin 2x$ 
+- $2\cos ^2x-1 = \cos2x$  
