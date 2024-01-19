@@ -23,12 +23,12 @@
 
 ## 17 - 01 - 2024
 
-- skirt : falda
+- skirt 
 - knecklace : collar
-- tie : corbata
+- tie 
 - trousers : pantalones
-- beef : carne
-- meal : comida
+- beef 
+- meal 
 - belt : correa
 - captivating : cautivador
 

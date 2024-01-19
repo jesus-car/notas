@@ -46,15 +46,21 @@
 - y : i
 - q : ch
 - sh: sh
+- zh : Vibra como la z (pero con los labios hacia afuera)
+- ch : Similar a zh con el maximo de aire hacia afuera
 - r : El sonido sale de la garganta y hace vibrar levemente la lengua
-- s : zz
-- z : zzzz
+- s : ss
+- z : zzzz ( como un mosquito sonriendo )
+- c: (ts)
 - t: d (soltando aire)
 - h : j
 - w : u
 - e: oa
 - er : ar
-- ing : iong
+- ing : inn ( Sonido nasal)
+- Todas las palabras que terminen en 'g' se omite la g pero tiene un sonido nasal
+
+- qu , xu , ju : shieieieiei
 
 **田字格  tián zì gé**
 - Grafico para practicar caracteres chinos. 
