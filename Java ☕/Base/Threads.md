@@ -1,51 +1,106 @@
-- El codigo que hasta el momento se h a programado sigue una secuencia de ejecucion, que sino se termina una linea no pasa a la siguiente(MONOTAREA)
+# Threads
+
+
+- El codigo que hasta el momento se ha programado sigue una secuencia de ejecucion, que sino se termina una linea no pasa a la siguiente(MONOTAREA)
 - Todos los SO son multitarea.
 - Cuando un programa es MONOTAREA, solo puede tener una interaccion a la vez, si se trata de ejecutar otro evento, tiene que terminar el que se esta ejecutando para que empieze con el nuevo evento que se ha querido hacer
 
-PROCEDIMIENTO
-- Crear una clase que implemente la interfaz Runnable 
-  + Esta interfaz tiene un metodo: run()
-  * Este metodo run se ejecutara cuando se inicia el objeto Thread con su metodo start. Al iniciarse se ejecuta todo lo del metodo run en hilo fuera del hilo principal.
-- Escribir el codigo de la tarea dentro del metodo run()
-- Instanciar la clase creada y guardarla en un tipo de dato Runnable
-- Crear instancia de clase Thread pasando como parametro al constructor de Thread el objeto Runnable creado
-- Poner en marcha el hilo de ejecucion con el metodo start() de la clase Thread
+## PROCEDIMIENTO
 
-CLASE RUNNABLE
+1. Primer metodo:
+	- Crear una clase que implemente la interfaz Runnable 
+	- Escribir el codigo de la tarea que se ejecutara en un nuevo hilo dentro del metodo run()
+	- Instanciar la clase creada y guardarla en un tipo de dato Runnable
+	- Crear instancia de clase Thread pasando como parametro al constructor de Thread el objeto Runnable creado
+	- Poner en marcha el hilo de ejecucion con el metodo start() de la clase Thread
+```Java
+	public void comienza_el_juego() {  
+	    Runnable claseRun = new ClaseRun(lamina);  
+	    Thread newThread = new Thread(claseRun);  
+	    newThread.start();  // Empieza la ejecucion del codigo del metodo run del cobjeto claseRun en un nuevo hilo
+	}
+```
+
+2. Segundo metodo:
+	- Crear una clase que se extienda de Thread
+	- Sobrescribir el metodo run() con las tareas a ejecutarse
+	- Instanciar esta nueva clase 
+	- Ejecutar el metodo start() de esta nueva clase.
+
+---
+
+## [**Interface Runnable**](https://docs.oracle.com/javase/8/docs/api/java/lang/Runnable.html "interface in java.lang")
+
 - Debe implementarse en clases que seran ejecutadas en un Thread
+- **Metodos:** 
+	- void run() : Todo el codigo dentro de este metodo se ejecutara en un nuevo hilo
 
-CLASE THREAD
+---
+
+## [**Class Thread**](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html "class in java.lang")
+
 - Creando una clase que herede de Thread( exdends Thread) podemos crear tambien un nuevo hilo, usando esta forma, no es necesario instanciar la clase Thread y pasar como parametro esta subclase, sino usando el metodo .start() de la superclase Thread es suficiente.
 - Crea un objeto Thread que cuando se inicie ejecutara el metodo run() del objeto Runnable pasada como parametro a su constructor de Thread
-- Metodos:
-  + start(): Cuando se llama a este metodo, se crea un nuevo hilo que ejecutara el metodo run()
-  + void interrupt(): Interrumpe la ejecucion del ultimo hilo ejecutado
-    * Si existen varios hilos, al usar este metodo, solo se interrumpira el ultimo hilo...?NO, en el ejemplo visto se sobrescribia la etiqueta de los demas hilos y se ejecutaban sin tener refrencia alguna.
-    * Este metodo solo interrumpe el objeto Thread del que es invocado, si existen varios hilos, cada uno se podra detener con su respectiva etiqueta individual de cada hilo.
 
-  + Static boolean interrupted(): Devuelve True or False si el hilo actual esta interrumpido o no.
-  + boolean isInterrupted(): Devuelve True o False si el hilo esta interrumpido.
-  + static Thread currentThread(): Devuelve la referencia del hilo que se ejecuta actualmente
-    + Ejem: Thread.currentThread().isInterrupted(): Devolvera false si el hilo actual en ejecucion no ha sido interrumpido por el metodo interrupt()
-  + string getName(): Devuelve el nombre del hilo(Thread0, Thread1... por defecto)
-  + stop(): Detiene la ejecucion de un hilo. ESTA DEPRECATED.
-  + void join(): Obliga a un hilo a ejecutarse hasta el final antes que empieze otro( recomendable que sea el primer hilo en ejecutarse)
+- **Constructor:**
+	- Thread(Runnable target)
+	- Y mas constructores que por el momento no se como se usan
 
-* static sleep(long i) : Agrega un retraso en miliseg. Durante la ejecucion de este metodo el hilo que lo implementa no puede ser Interrupt(), si es que de todas maneras se lo obliga lanzara la excepcion InterruptedException
-  + Si dentro de la excepcion se vuelve a intentar detener el hilo, este se detendra.
+- **Metodos:**
+	- start(): Cuando se llama a este metodo, se crea un nuevo hilo que ejecutara el metodo run()
+	- void interrupt(): Interrumpe la ejecucion del hilo, si en caso de una misma clase se ejecuta varias veces el mismo codigo, se crearan varios hilos sera necesario que cada hilo se pueda reconocer para usar este metodo, porque cada hilo sera un objeto diferente.
+	- Static boolean interrupted(): Devuelve True or False si el hilo actual esta interrumpido o no.
+	- boolean isInterrupted(): Devuelve True o False si el hilo esta interrumpido.
 
-ESTADOS DE LOS THREADS
+	- static Thread currentThread(): Devuelve la referencia del hilo del que se ejecuto la llamada.
+
+```Java
+	Thread.currentThread().isInterrupted();          // Devolvera false si el hilo actual en ejecucion no ha sido interrumpido por el metodo interrupt()
+``` 
+- 
+	- string getName(): Devuelve el nombre del hilo(Thread0, Thread1... por defecto)
+	- void join(): Obliga a un hilo a ejecutarse hasta el final antes que empieze otro( recomendable que sea el primer hilo en ejecutarse)
+```Java
+	HilosVarios hilo1 = new HilosVarios();
+	HilosVarios hilo2 = new HilosVarios();
+	hilo1.start();
+	try{
+		hilo1.join;            // Hasta que no termine el hilo1 no se ejecutara el siguiente(s) hilo(s)
+	} catch {}
+	hilo2.start();
+```
+
+- 
+	- static void sleep(long milis) : Agrega un retraso en miliseg. Durante la ejecucion de este metodo el hilo que lo implementa no puede ser Interrupt(), si es que de todas maneras se lo obliga lanzara la excepcion InterruptedException
+	* **Nota:** Si dentro de la excepcion se vuelve a intentar detener el hilo, este se detendra.
+
+```Java
+	try {  
+	    Thread.sleep(velocidad);  
+	} catch (InterruptedException e) {  
+	    Thread.currentThread().interrupt();  
+	}
+```
+
+### ESTADOS DE LOS THREADS
+
 - Nuevo: Cuando se crea el objeto Thread
 - Ejecutable: Cuando se llama al metodo hilo.start()
-- Bloqueado: Cuando se llama al metodo sleep y se interrumpe la ejecucion, se sale de este estado cuando termina el sleep
+- Bloqueado: Cuando se llama al metodo sleep y se interrumpe la ejecucion, se sale de este estado cuando termina el sleep y pasa a ejecutable
 - Muerto: Cuando se completa la ejecucion del metodo run() o cuando surge una excepcion no controlada
 
-SINCRONIZAR HILOS
-- Obligar a que un hilo se ejecute despues de otro, sin sobreponerse.
-- Se usa el metodo join()
-- Para tener hilos sincronizados, dejando libre el hilo main, una tecnica es colocar el join del primer hilo en ejecutarse dentro del run del hilo que le va a seguir, para eso el hilo que le sigue debe recibir como parametro al su hilo que se ejecuta antes y colocar el join dentro del run. De esta manera cuando se ejecute solo existiran 2 hilos en ejecucion, el start del primer hilo y el main, el siguiente hilo estara en espera a que termine el join, ya que este join se encuentra dentro de su run.
 
-CLASE REENTRANTLOCK
+### SINCRONIZAR HILOS
+
+- Obligar a que un hilo se ejecute despues de otro, sin sobreponerse se usa el metodo join();
+- Para tener hilos sincronizados, dejando libre el hilo main, una tecnica es:
+	- Colocar el join del primer hilo en ejecutarse dentro del run del hilo que le va a seguir.
+	- para eso el hilo que le sigue debe recibir como parametro al su hilo que se ejecuta antes y colocar el join dentro del run. De esta manera cuando se ejecute solo existiran 2 hilos en ejecucion, el start del primer hilo y el main, el siguiente hilo estara en espera a que termine el join, ya que este join se encuentra dentro de su run.
+
+---
+
+## [**Class ReentrantLock**](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html "class in java.util.concurrent.locks")
+
 - Crear un campo Lock en la clase donde se quiere realizar el lock, e instanciarlo para poder usar sus metodos
 - Metodos
   + void lock(): Bloquea un bloque de codigo para que solo pueda ser utilizado por un hilo a la vez. Cuando otro hilo de codigo intenta entrar a este bloque, tendra que esperar que se desbloquee para poder acceder

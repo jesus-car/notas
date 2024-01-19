@@ -18,7 +18,7 @@
 | You | nǐ | 你 |  |
 | Usted | nín | 您 | = nǐ 你 + xīn 心 (corazon) |
 | She  | tā | 她 | = + yě 也  |
-| He | tā | 他 | = rén 人 + yě 也   |
+| He | tā | 他 | = rén 人(persona) + yě 也   |
 
 **Dato:**
 - rén 人 ( Persona ) : 3 de los 5 pronombres tienen este caracter
@@ -79,12 +79,23 @@
 | Español | Literal | Pinyin | Caracter | Respuesta |
 | ---- | ---- | ---- | ---- | ---- |
 | Cual es tu nombre? | Tu llamar que? nombre | nǐ jiào  shén me míng zì | 你 叫 什么 名字 |  |
-| Te llamas Sol? | Tu llamar Sol ? | nǐ jiào tài yáng ma | 我 叫 太阳 吗 |  |
+| Te llamas Sol? | Tu llamar Sol ? | nǐ jiào tài yáng ma | 你 叫 太阳 吗 |  |
 | Me llamo Sol | yo llamar Sol | wǒ jiào tài yáng | 我 叫 太阳 |  |
 | Ustedes se llaman xx ? | Ustedes llamar xx ? | tā mén jiào ' ' ma | 他们 叫 ' ' 吗 |  |
 | Quienes son ustedes? | Ustedes ser quien? | nǐ mén shì shuí | 你们 是谁 |  |
 | Soy sol | Yo ser Sol | wǒ shì tài yáng | 我是 太阳 |  |
-| Eres Sol? | Tu ser Sol? | nǐ shì tài yáng ma | 你 是 太阳吗？ | shì 是 (si) /shì wǒ 是 我 (Soy yo)  |
-|  | no  | bú shì  | 不是 |  |
+| Eres Sol? | Tu ser Sol? | nǐ shì tài yáng ma | 你 是 太阳吗？ | shì 是 (si) /shì wǒ 是 我 (Soy yo) |
+|  | no | bú shì | 不是 |  |
 |  | No soy yo | bú shì wǒ | 不是我 |  |
+| estar | estar | zài | 在 |  |
+|  | estar donde | zài nǎ er | 在 哪儿 | Se conjuga con cualquier pronombre |
+| Donde estamos? | nosotros estar donde | wǒ mén zài nǎ er | 我们 在 哪儿 |  |
+|  |  | wǒ zài jiā   | 我 在 家   |  |
 - En chino mientras mas especifico seas mejor
+
+**Vocabulary:**
+
+| Español | Literal | Pinyin | Caracter | Dato |
+| ---- | ---- | ---- | ---- | ---- |
+| Estoy soltero | Yo soltero | Wǒ dānshēn | 我·单身 |  |
+

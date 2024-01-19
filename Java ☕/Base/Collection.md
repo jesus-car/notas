@@ -33,11 +33,13 @@
   + Esto no es del todo cierto, cuando se agrega mas elementos, Java va reservando mas espacio de memoria porque asume que mas adelante se agregaran mas elementos
 - Cuando se elimina un elemento del ArrayList como los elementos estan juntos en los espacios de memoria, es necesario reacomodar los siguientes elementos del eliminado para ocupar este espacio vacio, esto no es eficiente en el uso de la memoria.
 
-- Metodo ensureCapacity(int n) : Prepara al ArrayList para que espere 'n' elementos y no tenga que clonar y eliminar. Si se agrega mas elementos, se realizara este proceso de nuevo.
-- Metodo trimToSize(): Metodo para optimizar la memoria, si uno ya esta seguro que nuestro ArrayList no va a crecer mas, el GarbageCollector eliminara el exceso de memoria que se creo para este ArrayList si es que lo hay.
-  + Si se agrega un nuevo elemento, entonces hara el proceso del comienzo nuevamente(clonar-eliminar)
-- Metodo set(x,Object); Sustituye el objeto que ya se encuentra en esa posicion
-- get(x);
+- **Metodos:** 
+	- Metodo ensureCapacity(int n) : Prepara al ArrayList para que espere 'n' elementos y no tenga que clonar y eliminar. Si se agrega mas elementos, se realizara este proceso de nuevo.
+	- Metodo trimToSize(): Metodo para optimizar la memoria, si uno ya esta seguro que nuestro ArrayList no va a crecer mas, el GarbageCollector eliminara el exceso de memoria que se creo para este ArrayList si es que lo hay.
+	  + Si se agrega un nuevo elemento, entonces hara el proceso del comienzo nuevamente(clonar-eliminar)
+	- Metodo set(x,Object); Sustituye el objeto que ya se encuentra en esa posicion
+	- get(x);
+	- 
 
 
 ### LINKEDLIST

@@ -67,6 +67,7 @@ $$f'(a) = \lim_{h \to 0} \frac {{f(a+h)} - f(a)} {h}$$
 Hallamos la derivada en una razon de cambio instantanea
 
 - Velocidad(instantanea) es la derivada de la funcion *posicion* : $v(t)=x'(t)$
+- Derivada del volumen respecto al tiempo es la velocidad tambien O:
 - Aceleracion es la derivada de la velocidad respecto al tiempo *(Segunda derivada de la posicion)*: $a(t)=v'(t)$
 - Rapidez: Valor absoluto de la velocidad
 

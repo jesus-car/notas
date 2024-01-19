@@ -44,6 +44,29 @@
 	- I go to my parents' house
 
 
+## COMPARATIVE ADJECTIVES
+
+**Positive degree:** Offer no comparisen. Its just tell about the thing's quality
+
+**Comparative degree:** Compares two things to show which has the lesser or greater degree of the quality
+- Majority: short Adjectives + -er + than / short adjectives that ends whit -e + r + than / When the adjective is *long*, we need to use the word *more* + adjective
+	- He's **taller** than his brother (jis taoler dan )
+	- Your purse is **nicer** than hers (pursis naiser dan jer)
+	- New York is **bigger** than Chicago   <- Se dobla la g cuando es c + w + c
+	- Today the sky is **greyer** than yesterday
+	- My dad is **older** than my uncle
+	- This maths exam is **easier** than the last one.  <- A veces se cambia la y por 'i' like 'happy'
+	- She is **more intelligent** than him
+- Minority
+- Equality
+
+- **Excepciones:** 
+	- well / good -> better 
+	- bad -> worse
+	- far(lejos) -> farther / further
+
+
+---
 ## TOPIC
 
  - Are you good in/at ... ? / How good are you in/at? / Are you bad in/at ...? 

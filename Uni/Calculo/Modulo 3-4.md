@@ -41,15 +41,27 @@ $$\left.\frac{dy}{dx}\right\|_{x=\frac{3\pi}{2}}$$
 - Si $f'(x) < 0$ . decreciente
 - Si $f'(x)=0$ , constante
 
-- Si nos piden el intervalo en el que la funcion es creciente o decreciente, se deriva la funcion y se resuelven las inecuaciones del teorema
+- Si nos piden el intervalo en el que la funcion es creciente o decreciente, se deriva la funcion y se resuelven las inecuaciones del teorema cuando es creciente y decreciente.
+- Otra forma es igualarlo a 0, sacar los valores de x, tomar puntos de control(un numero aleatorio entre los rangos hallados) y reemplazarlos en la *derivada*, aplicando los teoremas determinar si es creciente o decreciente
+- **Numeros criticos:** Los valores de x despues de resolver la derivada, donde cambiara de creciente a decreciente y viceversa, igualando la derivada a 0
+- Si piden puntos criticos, reemplazar los numeros criticos en la funcion original  y establecer las coordenadas de los puntos criticos
 
 **Puntos criticos. Extremos relativos y absolutos:**  
 1. Reemplace los numeros criticos en la funcion f
 2. Reemplace los extremos del intervalo en la funcion f
 3. El valor mas grande de los obtenidos en los pasos previos es el valor maximo absoluto; el mas pequeño es el valor minimo absoluto
 
+- **Minimo relativo** : Donde la funcion pasa de decreciente a creciente
+- **Maximo relativo:** Donde la funcion pasa de creciente a decreciente
+
 - Sea $x_0$ Dom f, $x_0$ es un numero critico de f si:  $f'(x_0)=0$  o $f'(x_0)$ no existe
 - Al par ordenado $(x_0,f(x_0))$ donde $x_0$ es un numero critico, se le denomina *punto critico de una funcion f* .
 
 
-- Si nos piden hallar los puntos criticos, Tenemos que derivar la funcion e igualarla a 0, y revisar el denominador si existe, para hallar los numeros criticos, luego se reemplaza los numeros criticos en la funcion y se hallan los puntos criticos
+- Si nos piden hallar los **puntos criticos,** Tenemos que derivar la funcion e igualarla a 0, y revisar el denominador si existe, para hallar los numeros criticos, luego se reemplaza los numeros criticos en la funcion y se hallan los puntos criticos
+
+**Procedimiento del calculo de maximos y minimos relativos:**
+1. Derivar la funcion
+2. Hallar los numeros criticos
+3. Tomar valores de prueba para encontrar el signo de la derivada y determinar los tramos que son creciente o decreciente
+4. Seleccionar los puntos donde cambia de direccion la funcion

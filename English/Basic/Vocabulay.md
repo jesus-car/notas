@@ -42,6 +42,7 @@
 - roof : Techo
 - polite : educado
 - seaside : Playa
+- compare/comparison : Comparar/comparacion
 
 ## PHRASES
 

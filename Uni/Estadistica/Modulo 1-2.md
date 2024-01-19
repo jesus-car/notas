@@ -22,7 +22,7 @@
 	- Cualitativa : Representa cualidades, atributos o caracteristicas no numericas. Se expresa mediante una palabra
 	- Cuantitativa : Se representan numericamente
 		- Discreta : Se representan en numeros enteros. Ejem: Numero de estudiantes, numero de trabajadores, etc
-		- Continua : Se representan por numeros reales. Ejem: Peso, estatura, etc,
+		- Continua : Se representan por numeros reales. Ejem: Peso, estatura, etc. Se usa intervalos.
 	
 2. Por su escala de medicion
 	- Nominal : Tiene 2 o mas categorias sin orden predeterminado. Ejem: Genero.
@@ -70,6 +70,7 @@
 | Casado | 20 | 40 |
 | Separado | 11 | 22 |
 | Total | 50 | 100% |
+|  |  |  |
 
 **Presentacion de variables cualitativas bidimensionales**
 - Son el resultado de observacion simultanea de dos caracteres en la unidad de estudios que forman un conjunto de pares, que se llama *variable estadistica bidimensional*

@@ -24,9 +24,9 @@
 - shān : montaña   山
 - yǔ : Lluvia   雨
 - Shuǐ : Agua  水
-- rì : Sol  
+- rì : Sol  日
 - yuèliàng : Luna  月亮
-- mù : Arbol
+- mù : Arbol 木
 
 *Refran chino:* shú néng shēng qiǎo
 
@@ -43,15 +43,16 @@
 - La r se pronuncia suave, con la lengua pegada al paladar superior y dientes 
 - El sonido de la g es nasal
 - j : llii
-- q : chii
+- y : i
+- q : ch
 - sh: sh
-- r : 
+- r : El sonido sale de la garganta y hace vibrar levemente la lengua
 - s : zz
 - z : zzzz
 - t: d (soltando aire)
-- h : jo
+- h : j
 - w : u
-- e: o
+- e: oa
 - er : ar
 - ing : iong
 
@@ -70,7 +71,7 @@
 | 3 | sān |  | 三 |  |
 | 4 | sì | zzu | 四 | Similar sonido: sǐ 死 (muerto) |
 | 5 | wǔ |  | 五 |  |
-| 6 | liù |  | 六 | Excelente: liu liu da shun (que te vaya bien en todo) 66 (muy bueno) |
+| 6 | liù |  | 六 | Excelente: liù liù dà shùn (que te vaya bien en todo) 66 (muy bueno) |
 | 7 | qī |  | 七 |  |
 | 8 | bā |  | 八 | Similar sonido:  fā 发 Enriquecerse |
 | 9 | jiǔ |  | 九 |  |

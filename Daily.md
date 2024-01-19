@@ -88,6 +88,22 @@
 
 ## 17 - 01 - 2024
 
+- [x] Ingles
+- [x] Chino
+- [x] U
+- [ ] Java Obsidian refactor
+- [x] Genshin :P
+
+## 18 - 01 - 2024
+
+- [x] Ingles
+- [x] Chino
+- [x] U
+- [x] Java Obsidian refactor
+- [x] Genshin :P
+
+## 19 - 01 - 2024
+
 - [ ] Ingles
 - [ ] Chino
 - [ ] U
