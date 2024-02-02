@@ -22,3 +22,11 @@
 
 - $2\sin x \cdot \cos x = \sin 2x$ 
 - $2\cos ^2x-1 = \cos2x$  
+
+
+**Dominio de una funcion** ^dominiofunc
+- Funcion racional
+- Raices de indice par
+
+**Asintotas:**
+- Cuando es un polinomio, no tiene asintotas

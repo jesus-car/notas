@@ -102,10 +102,31 @@
 - [x] Java Obsidian refactor
 - [x] Genshin :P
 
-## 19 - 01 - 2024
+## 19 / 20 / 21 - 01 - 2024
 
+- [x] Nada
+
+## 22 / 01 / 2024
+
+- [ ] Ingles
+- [x] Chino
+- [ ] U
+- [ ] Java Obsidian refactor
+- [x] Genshin :P
+
+## 29 - 01 - 2024
+
+- Retomando actividades
 - [ ] Ingles
 - [ ] Chino
 - [ ] U
-- [ ] Java Obsidian refactor
-- [ ] Genshin :P
+- [ ] Genshin 
+
+
+## 01 - 02 - 2024
+
+- [ ] Ingles
+- [x] Chino
+- [x] U
+- [x] Genshin :P
+- [x] Playground review

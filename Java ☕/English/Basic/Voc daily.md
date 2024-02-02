@@ -7,7 +7,7 @@
 - whose
 - damp: humedo
 - unpleasant
-- gaze(geeis) : mirada
+- gaze(geeis)
 
 
 ## 16 - 01 - 2024
@@ -19,7 +19,7 @@
 - roof 
 - ladder
 - also : Tambien
-- steal / stolen / stole : Robar / robó / robo
+- steal / stolen / stole 
 
 ## 17 - 01 - 2024
 
@@ -29,6 +29,16 @@
 - trousers : pantalones
 - beef 
 - meal 
-- belt : correa
-- captivating : cautivador
+- belt
+- captivating 
 
+## 23 - 01 - 2024
+
+- Beverages : Bebidas
+- Deserts: Postres
+- Mason: albañil
+- Butcher : Carnicero
+- Baker(panadero) / bake(cocer-cocinar)
+- curly : ondulado
+- Nephews : sobrinos
+- Siblings : Hermanos

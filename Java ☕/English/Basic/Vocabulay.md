@@ -43,6 +43,7 @@
 - polite : educado
 - seaside : Playa
 - compare/comparison : Comparar/comparacion
+- snail : Caracol
 
 ## PHRASES
 

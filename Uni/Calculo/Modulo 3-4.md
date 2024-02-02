@@ -44,6 +44,7 @@ $$\left.\frac{dy}{dx}\right\|_{x=\frac{3\pi}{2}}$$
 - Si nos piden el intervalo en el que la funcion es creciente o decreciente, se deriva la funcion y se resuelven las inecuaciones del teorema cuando es creciente y decreciente.
 - Otra forma es igualarlo a 0, sacar los valores de x, tomar puntos de control(un numero aleatorio entre los rangos hallados) y reemplazarlos en la *derivada*, aplicando los teoremas determinar si es creciente o decreciente
 - **Numeros criticos:** Los valores de x despues de resolver la derivada, donde cambiara de creciente a decreciente y viceversa, igualando la derivada a 0
+	- $f'(x) =0$ o $f'(c)$ no existe, entonces c es un numero critico de dicha funcion
 - Si piden puntos criticos, reemplazar los numeros criticos en la funcion original  y establecer las coordenadas de los puntos criticos
 
 **Puntos criticos. Extremos relativos y absolutos:**  
@@ -62,6 +63,8 @@ $$\left.\frac{dy}{dx}\right\|_{x=\frac{3\pi}{2}}$$
 
 **Procedimiento del calculo de maximos y minimos relativos:**
 1. Derivar la funcion
-2. Hallar los numeros criticos
+2. Hallar los numeros criticos igualando a 0 la derivada
 3. Tomar valores de prueba para encontrar el signo de la derivada y determinar los tramos que son creciente o decreciente
-4. Seleccionar los puntos donde cambia de direccion la funcion
+4. Seleccionar los puntos donde cambia de direccion la funcion y reemplazar en la *funcion original* para encontrar las coordenadas de los minimos y maximos relativos
+
+- Problema de la caja: Dejar todo en funcion de una variable, derivarlo y hallar el valor minimo de la variable, con esto hallamos el precio minimo

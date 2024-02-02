@@ -57,8 +57,30 @@
 	- My dad is **older** than my uncle
 	- This maths exam is **easier** than the last one.  <- A veces se cambia la y por 'i' like 'happy'
 	- She is **more intelligent** than him
-- Minority
-- Equality
+
+- Minority: *less* + Short and long adjectives + *than*
+	- He is less tall than his brother
+	- Today the sky is less grey than yesterday
+	- Your purse is less nice than hers.
+	- This maths exam is less easy than the last one
+	- He is less intelligent than them.
+
+- Equality: *as* + abjective / adverb + *as*  | *not as* + adj + *as* 
+	- Your purse is as nice as hers
+	- He is not as tall as his brother
+	- My dad is as old as my uncle
+	- He is as intelligent as him
+
+- Equality : *same like*(lo mismo) | *not the same like* | *same as* | *like* | *similar* | *different*
+	- My skirt is the same like hers.
+	- My skirt is not the same like hers
+	- My t-shirt is the same as my sister's
+	- My dress is like yours.
+	- My dress is'nt like yours
+	- These are two similar flowers
+	- The flower on the left is *similar to* that on the right
+	- That is a different flower
+	- The yellow flower is *different from* the rest 
 
 - **Excepciones:** 
 	- well / good -> better 

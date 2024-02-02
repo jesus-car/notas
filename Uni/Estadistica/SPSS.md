@@ -24,4 +24,28 @@
 - Con los datos de minimo, maximo, rango y n sacamos los calculos para la amplitud y los puntos de salto
 - En el menu seleccionar Transform > visual binning > Llenamos el Binning variable la nueva variable > make cutpoints > Llenamos los datos y apply > Llenamos los campos de los rangos, exclude y Ok> Se crea una nueva variable
 - Se repite el paso 1: Frequencies> selecciona la nueva variable > charts > bar charts - percentage > continue Ok
-- 
+
+**Calculo de medidas:**
+1. Copiar datos al SPSS
+2. Vista de variables: Colocar el nombre de la variable con sus datos
+3. Analyze > Descriptive Statistics > Frequencies > Estadistics > Select Media mediana moda, desv estandar, varianza, rango, etc. > Continuar, aceptar
+
+**Para separar por grupo de datos:**
+1. Data > split file > compare groups
+
+
+**Distribucion de probabilidades binomial:**
+1. En una ventana en blanco, agregar el valor 1 a la primera celda
+2. Menu > Transform > Compute variable > Function group: CDF & Nocentral CDF(Trabaja con el X<x) /  PDF & Nocentral PDF(Trabaja con el X=x)> Function and special variable: *Cdf. Binom*(double click) 
+3. Se crea un espacio para llenar los datos del ejercicio: CDF. BINOM(x,n,p) x: Variable aleatoria, n: numero de ensayos, p: probabilidad de exito
+4. Aceptar
+
+**Distribucion de probabilidad Poisson**
+1. En una ventana en blanco, agregar el valor 1 a la primera celda
+2. Menu > Transform > Compute variable > Function group: CDF & Nocentral CDF(Trabaja con el X<x) /  PDF & Nocentral PDF(Trabaja con el X=x)> Function and special variable: *Cdf. Poisson*(double click) 
+3. Se crea un espacio para llenar los datos del ejercicio: CDF. POISSON(x, $\lambda$) x: Variable aleatoria, $\lambda$ : media
+4. Aceptar
+
+
+
+*Nota:*  La diferencia de binomial con Poisson es que siempre hay una unidad de tiempo o espacio

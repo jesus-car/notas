@@ -63,6 +63,7 @@
 
 - \<div> : Contenedor generico. Ventaja es dar estilos y componertamientos al contenido agrupado mediante css
 
+- \<script src="script.js"> \</script> : Permite ejecutar un script
 
 
 
