@@ -47,6 +47,7 @@
 - Se puede realizar graficos como el poligono($X_ih_i\%$), la ojiva($L_s,h_i\%$) e Histograma para variables cuantitativas continuas
 - Graficos de barras horizontales o verticales, y los graficos de bastones se usan para presentar variables cuantitativas discretas
 
+---
 
 ## Modulo 4
 

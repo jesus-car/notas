@@ -57,6 +57,9 @@ $$P(A_i/B)=\frac{P(A_i)\cdot P(B/A_i)}{P(B)}$$**Ejemplo:**
 	- A (0.40) - D(0.09) / ND(0.91)
 	- B(0.60) - D(0.01) / ND(0.99)
 
+
+---
+
 ## Modulo 6
 
 **Variable aleatoria(X):** Valores se obtienen de mediciones en algun tipo de experimento aleatorio.
@@ -73,6 +76,7 @@ $$P(A_i/B)=\frac{P(A_i)\cdot P(B/A_i)}{P(B)}$$**Ejemplo:**
 		- Denotacion: $f(x)=P[X=x]$ 
 	- Distribucion: Probabilidad de que la variable x tome un valor u otro inferior. Nos permite calcular probabilidades acumuladas
 		- Denotacion: $F(x)=P[X \leq x ]$ 
+		- Existen 2: Distribucion discreta binomial y Distribucion discreta de Poisson
 
 **Variable aleatoria Continua:** Toma valores de la recta real(# reales)
 - Rango: Conjunto infinito no numerable de valores ${x/x \in \mathbb{R}}$ 
@@ -92,6 +96,7 @@ $E(x) = 0(\frac{1}{8}) + 1(\frac{3}{8})+ 2(\frac{3}{8})+3(\frac{1}{8}) = \frac{1
 
 
 **Distribucion discreta binominal:** Expresa el numero de exitos obtenidos en cada prueba del experimento.
+- Actualmente los calculos que se veran se hacen en el  [[SPSS#^poison|SPSS]]
 - Caracteristicas: 
 	- Se aplicacion se da en variables discretas de respuestas dicotomicas: *exito o fracaso*
 	- Cada ensayo es independiente; la probabilidad de exito se mantiene constante
@@ -117,7 +122,8 @@ $E(x) = 0(\frac{1}{8}) + 1(\frac{3}{8})+ 2(\frac{3}{8})+3(\frac{1}{8}) = \frac{1
 
 
 
-**Distribucion discreta Poisson:** Indica el numero de ocurrencias de cierto evento dentro de un intervalo de tiempo dado
+**Distribucion discreta Poisson:** Indica el numero de ocurrencias de cierto evento dentro de un intervalo de tiempo dado.
+- Actualmente los calculos que se veran se hacen en el  [[SPSS#^poison|SPSS]]
 - Caracteristicas: 
 	- Se usa cuando se quiere evaluar variables aleatorias discretas pero ocurridos en espacios continuos(tiempo volumen espacio, etc)
 	- Los sucesos son independientes entre si
