@@ -123,10 +123,3 @@
 - [ ] Genshin 
 
 
-## 01 - 02 - 2024
-
-- [ ] Ingles
-- [x] Chino
-- [x] U
-- [x] Genshin :P
-- [x] Playground review

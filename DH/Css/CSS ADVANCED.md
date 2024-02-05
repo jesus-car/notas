@@ -59,10 +59,10 @@ Propiedades que se aplicaran al contenedor padre para la distribucion de sus ele
 
 ## MEDIA QUERI
 
-Aplican un conjunto de estilos si se cumplen unas condiciones
-Se recomienda escribirlo al final de la hoja de estilo
-Se aplica a partir de las resoluciones en que el sitio web se ve mal ( *breakpoint* )
-Si el sitio tiene mas de 3 media querys entonces no esta muy bien estructurado
+- Aplican un conjunto de estilos si se cumplen unas condiciones
+- Se recomienda escribirlo al final de la hoja de estilo
+- Se aplica a partir de las resoluciones en que el sitio web se ve mal ( *breakpoint* )
+- Si el sitio tiene mas de 3 media querys entonces no esta muy bien estructurado
 
 ```css
 	@media (condicion) {
@@ -70,7 +70,7 @@ Si el sitio tiene mas de 3 media querys entonces no esta muy bien estructurado
 	}
 ```
 
-Condicion:
+**Condicion:**
 - mobile-first: Si el viewport tiene como minimo Npx se aplicaran las reglas
 - mobile-last(max-width): No recomendado
 ```css
@@ -79,7 +79,7 @@ Condicion:
 	}
 ```
 
-Orientacion:
+**Orientacion:**
 - Agrega una condicion si el dispositivo se encuentra en posicion vertical/horizontal
 ```css
 	@media(max-width: 460px) and (orientation: landscape){
