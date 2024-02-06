@@ -9,8 +9,16 @@
 
 ## 05 - 02 - 2024
 
+- [x] Ingles
+- [x] Chino
+- [x] U
+- [x] Genshin :P
+- [x] Playground review
+
+## 0 - 02 - 2024
+
 - [ ] Ingles
 - [ ] Chino
-- [x] U
+- [ ] U
 - [ ] Genshin :P
-- [x] Playground review
+- [ ] Playground review
