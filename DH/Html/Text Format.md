@@ -14,9 +14,16 @@
 - \<span>(l) : Usar emojis dentro de esta etiqueta, dar formato especial al contenido con CSS
 - \<pre> : El contenido dentro de esta etiqueta se mostrara tal cual esta, respetando saltos de linea, tabulaciones, etc
 - \<blockquote> : Para introducir citas, se suele mostrar en un formato especial
-- \<dl> : Crea una lista de terminos y definiciones
+- \<dl> : Crea una lista de terminos y definiciones, las siguientes etiquetas van dentro del dl
 	- \<dt> : Termino
 	- \<dd> : Definicion
+```html
+<dl>
+	<dt>Script</dt>
+	<dd>Etiqueta html donde se puede colocar codigo JS </dd>
+</dl>
+```
+
 - \<ruby> : Para letras especiales como Chino y japones
 	- \<rt> : Se usa para contener el texto de la anotacion ruby, se represente en un size reducido y alineado encima del texto ruby
 	- \<rp>

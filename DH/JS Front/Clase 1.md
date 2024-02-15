@@ -1,4 +1,6 @@
-- PAra que sirve la pestaña Application de las herramientas del desarrollador de un navegador?
+# Introduccion
+
+- Para que sirve la pestaña Application de las herramientas del desarrollador de un navegador?
 - Lighthouse: Es una herramienta que genera reportes para comprobar ciertos recursos que debe tener la web para que se optima. 
 
 
@@ -9,7 +11,9 @@
 - alert("Alerta") : Genera una alerta
 - confirm("booleano"): Genera un cartel con 2 opciones cancelar y aceptar. Devolvera un booleano dependiendo de lo que halla escogido el usuario
 - prompt("escribe algo"):  El usuario puede ingresar texto que podra ser almacenado como string
+	- Si el usuario no introduce nada, devuelve un string vacio
 
+- Para realizar ciertas validaciones en entradas de usuario se usa bastante los *REGEX*
 ## [**Class Math**](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 **Metodos:**

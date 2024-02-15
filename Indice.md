@@ -1,9 +1,9 @@
 - Java
-	- [[Intro]]
+	- [[NewBrain/DH/JS Front/Clase 1]]
 		- [[#Memoria|Memoria]]
 		- [[#POO|POO]]
 			- [[#POO#CONSTRUCTORES|CONSTRUCTORES]]
 			- [[#POO#VARIABLES - METODOS DE CLASE|VARIABLES - METODOS DE CLASE]]
 			- [[#POO#COMPOSICION|COMPOSICION]]
-			- [[Intro#POO#DELEGACION|DELEGACION]]
+			- [[NewBrain/DH/JS Front/Clase 1#POO#DELEGACION|DELEGACION]]
 

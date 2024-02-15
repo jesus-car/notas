@@ -10,7 +10,7 @@
 5. Implementar aplicaciones: Automatizar la instalacion de aplicaciones
 
 ---
-## Configuracion y mantenimiento del sistema1
+## Configuracion y mantenimiento del sistema
 
 **DevOps:** Se encarga de automatizar los procesos del area de Development y Operations
 
@@ -61,4 +61,3 @@
 
 **VAGRANT**
 - Permite controlar el ciclo de vida de las maquinas virtuales, automatizar su configuration, generar imagenes con software preinstalado y gestionar ambientes de desarrollo de manera sencilla
-- 
