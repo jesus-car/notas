@@ -7,6 +7,8 @@
 - Path : Archivos donde se almacenan todos los scripts que se pueden ejecutar directamente en la powershell
 - Es orientado a objetos
 
+- DLL : Es una biblioteca que contiene codigo y datos que pueden usar mas de un programa al mismo tiempo. Modularizacion.
+
 ---
 ## Niveles de permisividad
 
@@ -60,6 +62,19 @@ Write-Host $nombre.GetType().name  # Nos devuelve el tipo de variable
 ```PowerShell
 $fecha = [datetime] "01/04/1996"
 Write-Host $fecha.GetType().name
+```
+
+**Argumentos:**
+- Para referenciar a los argumentos introducidos con un comando se usa *$args\[n]* 
+- Creo que funciona como una lista, ya que se puede usar el metodo $args.Count para saber la cantidad de parametros
+
+```powershell
+$nombre = $args[0]
+$numero1 = [double]$args[1]
+
+if ($numero1 -gt 18) {
+	Write-Host "$nombre es mayor de edad"
+}
 ```
 
 ---

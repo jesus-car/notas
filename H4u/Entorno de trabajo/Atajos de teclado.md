@@ -1,0 +1,2 @@
+- ctrl + l : Limpia todo lo escrito en la termina
+- 

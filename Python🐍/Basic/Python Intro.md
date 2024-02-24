@@ -219,6 +219,7 @@ segunda_tupla = 3,4,"bye"
     "perra": "dog",
     "caballo":"horse"
   }
+  cuadrados = {x: x**2 for x in range(6)}
 ```
 
 - Cada key es unica
@@ -239,11 +240,12 @@ for i, j in dictionary.items():
 ```
 - value(), devuelve una lista de todos los valores del diccionario.
 - sorted() : Hace un ordenamiento de lo que se le pase, puede ser una lista, tupla, diccionario.
-- update({key:value}) : Agrega un nuevo elemento al diccionario
+- update({key:value}) : Agrega un nuevo elemento al diccionario, hasta otra diccionario puede agregar
 - clear() : Elimina todos los elementos del diccionario, mas no elimina el diccionario, querdaria un diccionario vacio.
 - *del* dictionary\['key'] : Elimina un elemento del diccionario 
 	* Eliminar una clave no existente provocara un error.
 - popitem() : Elimina el ultimo elemento de la lista/dictionary
+- get("value_buscado" , "respuesta_sinoEncuentra") : Busca una clase en un diccionario, y si no lo encuentra devuelve el segundo parametro
 
 - FUNCION dict(a,b) : Convierte una lista de tuplas o 2 tuplas a y b, en un diccionario.
 ```Python
@@ -255,7 +257,36 @@ print(diccionario)  # Output: {'a': 1, 'b': 2, 'c': 3}
 - METODO count(x) : Devuelve la cantidad de x que existen en el iterable analizado.
 
 ---
+## SETS 
 
+- Igual a las listas, pero no aceptan elementos repetidos
+- No es ordenado
+- Realizar busquedas es mas eficiente en sets: print(123 in mi_conjunto) , devuelve un booleano
+
+- Syntax:
+```python
+mi_conjunto = {1,2,3}
+mi_conjunto_dos = {5,6,7}
+
+mi_conjunto.update({4,5,6})
+mi_conjunto.intersection(mi_conjunto_dos)
+
+una_lista = [1,2,2,3,3,3,5,5,6,6]
+una_lista_sin_repeticiones = set(una_lista)
+```
+
+**Metodos:**
+- add(1): Agrega el elemento 1 al set
+- update({2,3,4})  : Agrega varios datos al set
+- remove(3): Te botara un error si no existe el elemento
+- discard(5): No te botara error si no existe el elemento
+- intersection(un_set) : Devuelve un set de los elementos que se repiten de la lista a la que se aplica el metodo, y el set del parametro
+- union(un_set): Devuelve un set quitando los elementos repetidos de los 2 sets que se operan
+- difference(un_set) : Devuelve un set de los elementos que no se repiten
+- issubset(un_set) : Devuelve un booleano si al set que se le aplica el metodo es parte del set que se le pasa como parametro
+
+
+---
 ## Excepciones
 
 - Syntax:
@@ -323,7 +354,7 @@ print(pares)
 ```
 
 **Pendientes:**
-- map, filter, set, functools/reduce, zip
+- map, filter, functools/reduce, zip
 
 **Consejos:** 
 - Las optimizaciones en reduccion de lineas de codigo se puede dejar para la refactoriazacion del codigo, lo principal es que funcione.

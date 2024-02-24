@@ -3,6 +3,15 @@
 70   <- grande     130       130
 
 **POSION**
-600     240
-300      400
-20     130
+1000 -> 3
+15000 -> 2
+30000 -> 1
+
+
+
+## Genshin
+
+Bennet
+Xinkiu
+yelan
+sacarosa

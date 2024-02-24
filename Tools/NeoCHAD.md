@@ -1,0 +1,11 @@
+- Ctrl + n : Abre el explorador de archivos desde la ubicacion donde estoy. Desde el modo normal
+	- En el explorador estando el cursor en una carpeta con la tecla 'a' puedo crear un nuevo archivo
+- :LspInfo 
+- :MasonInstallAll : Si se agregan plugins desde el archivo de configuracion plugins.lua
+- space + f + m : Formatea el codigo si se tiene instalado un formateador como BLACK
+- space + b : Establece un breakpoint
+- space + p + r : Corre el depurador
+- TSInstall python : Comando requerido para que funcione correctamente el depurador
+- LSP: Language server protocol, esta basado en Json RPC y vinculan editores de texto con servidores que brindan caracteristicas especificas del lenguaje de programacion
+- Mason: Gestor de paquetes de neovim
+- 

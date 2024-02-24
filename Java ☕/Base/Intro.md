@@ -70,9 +70,13 @@ import java.lang.Math;
 **SOBRESCRITURA DE METODOS, SUPER**
 - super.method(); super.attr; Hace referencia al atributo o metodo de la super clase dentro de la subclase, aplica cuando la superclase es instanciable.
 - En el constructor de la subclase se puede invocar a la super clase como si estuviera instanciando y de inicializen sus atributos como estan definidos en la superclase: 
-  + public SubClase(int numero){
-      super(numero);                    <- Inicializa la superclase con todos los atributos definidos en su contructor
-      this.numero += numero             <- manipula uno de los atributos heredados
+```Java
+public SubClase(int numero){
+	super(numero);
+	this.numero += numero;
+}
+```
+  
 
 **PROTECTED:** Los atributos con este modificador de acceso podran ser accedidos desde cualquier clase heredada de cualquier paquete del projecto.
 * Si el atributo de la Superclase no tiene ningun modificador de acceso, podra ser accedido por cualquier clase del mismo paquete mas no de otro.

@@ -61,3 +61,20 @@
 	- -ClassName Win32_PhysicalMemory
 
 - Get-Package : Muestra los programas instalados
+
+- Get-Content : Obtiene el contenido del elemento en la ubicación especificada.
+
+- Get-Command -CommandType cmdlet | Measure-Object : Nos da el numero de comandos disponibles en powershell
+- Get-ChildItem (dir) : Nos da las carpetas del directorio actual
+- Get-Help *comando* : Nos muestra el manual de ese comando
+	- Get-Help -Online *comando* : Busca de manera online el manual COMPLETO del comando, nos manda al navegador
+	- Get-Help *comando* -Examples : Nos muestra ejemplos
+	- Get-Help *comando* -Full : Informacion detallada de cada argumento del comando
+
+- Write-Host "Texto" : Es un print, puede imprimir una variable
+- Read-Host "Como te llamas?" : Imprime un texto y espera una respuesta por parte del usuario, se suele almacenar en una variable para guardar lo que escribe el usuario. No se suele usar en scripts
+
+```PowerShell
+$nombre = Read-Host "Como te llamas?"
+Write-Host $nombre
+```

@@ -2,18 +2,26 @@
 
 - Para que sirve la pestaña Application de las herramientas del desarrollador de un navegador?
 - Lighthouse: Es una herramienta que genera reportes para comprobar ciertos recursos que debe tener la web para que se optima. 
+- Vinculacion de un script a html 
+
+```html
+<script src="unScript.js"></script>
+```
 
 
 **Baby steps:**
 - console.error("error")
 - console.warn("advertencia"): Escribe una advertencia en la consola
 - console.table("tabla") : Escribe una tabla en la consola, para visualizar arrays con mejor estilo
+
 - alert("Alerta") : Genera una alerta
 - confirm("booleano"): Genera un cartel con 2 opciones cancelar y aceptar. Devolvera un booleano dependiendo de lo que halla escogido el usuario
 - prompt("escribe algo"):  El usuario puede ingresar texto que podra ser almacenado como string
 	- Si el usuario no introduce nada, devuelve un string vacio
 
 - Para realizar ciertas validaciones en entradas de usuario se usa bastante los *REGEX*
+
+---
 ## [**Class Math**](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 **Metodos:**
@@ -21,7 +29,7 @@
 - round() : Redondea un numero al entero mas cercano
 - [Math.max()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/max) : Retorna el mayor de todos los numeros pasados como parametro
 
-
+---
 ## Funciones importantes
 
 - parseInt(String s) : Convierte una string a un int
@@ -31,6 +39,7 @@ let edadUsuario = parseInt(prompt("Ingrese edad"))
 
 - isNaN(x) : Devuelve un Booleano, true si 'x' no es un numero, y false si es un numero
 
+---
 ## Estructuras de control
 
 **FOR IN** : Para recorrer propiedades de objetos

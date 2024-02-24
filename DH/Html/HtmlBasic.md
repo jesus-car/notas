@@ -54,6 +54,17 @@
 		- start="10" : Define donde empezara la numeracion
 	- \<li> : Elemento de la lista (normalmentes con un hipervinculo \<a>)
 	- **Listas anidadas:** Dentro de un ol, ul solo puede haber un li, pero dentro de los li puede haber otro ol,ul creando varios niveles de jerarquia
+```html
+<nav>
+	<ul>
+		<li><a href="#">Inicio</a></li>
+		<li><a href="#">Acerca de</a></li>
+		<li><a href="#">Servicios</a></li>
+		<li><a href="#">Contacto</a></li>
+	</ul>
+</nav>
+```
+
 
 - \<footer> : Pie de pagina, no se limita a ser usado solo al final de la pagina, sino tambien en section y article
 - \<address> : Informacion del contacto de la pagina, suele ir dentro del footer
