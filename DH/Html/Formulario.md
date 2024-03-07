@@ -7,7 +7,7 @@
 - \<input> : Crea un campo de entrada para un formulario(una caja de texto)
 	- id="nombre" : Crea un identificador para asociarlo con un label
 	- list="id_data_list" : Vincula con un datalist
-- type : Especifica el tipo de campo de entrada(input)
+- Atributo type : Especifica el tipo de campo de entrada(input)
 	- button
 	- checkbox : Un casillero marcable. Va dentro de la etiqueta label y obligatorio tener su atributo name.
 		- checked : Se marca por defecto

@@ -12,9 +12,11 @@
 - FUNCION max(string) : Devuelve el caracter maximo.
 - METODO index(X) : Buscara la posicion en la que se encuentra X en la cadena o lista que se le pase. Si X no se encuentra en la lista o cadena dara un error.
 - FUNCION list(string) : Transforma una cadena en una lista.
-- METODO count(X) : Devolvera la cantidad de veces que aparece X en la lista pasada.
+- METODO count(X) : Devolvera la cantidad de veces que aparece X en la lista pasada, funciona con strings
 
-========= METODOS DE CADENAS ==========
+---
+## METODOS DE CADENAS
+
 - capitalize()  : Convierte el primer caracter a mayuscula, y las demas en minusculas.
 
 - center(x,z)   : Convierte una string de Y caracteres en X caracteres agregandole  espacios y lo centra. Si X<Y no hace nada. Si tiene 2 parametros en vez de agregar espacios, agrega 'z'.
@@ -99,6 +101,4 @@
 - ImportError: Cuando falla una importacion de modulo
 - KeyError: Cuando intentas acceder a una key inexistente de un diccionario.(hijo de lookup)
 
-
-* FUNCION set(n): Crea un objeto iterable con elementos UNICOS donde n puede ser una lista, una string. En un orden aleatorio.
 

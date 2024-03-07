@@ -11,6 +11,25 @@
 - **Entidad de caracteres:** Caracteres especiales que no se pueden colocar directamente entre etiquetas. Empiezan con un & y terminan ' ; '
 	- &copy;
 	- &circledR; etc etc
+
+---
+
+#fontAwesome
+**Font Awesome:**
+
+- Pagina de iconos
+- cdn : Content Delivery network
+	- Es una red de contenido con miles de copias para asegurar el acceso a este contenido en la red
+	- font awesome tiene su [cdn - font awesome](https://cdnjs.com/libraries/font-awesome)
+
+- Uso: Copiamos los codigos que nos ofrece en modo : *copy link tag* en nuestro html para poder usar los diferentes iconos
+- Luego buscamos el icono que queremos usar y lo copiamos en nuestro html, normalmente tienes este formato:
+
+```html
+<i class="fas fa-camera"></i>
+```
+- Usando la clase que nos ofrece podemos aplicarle estilo a los iconos
+
 ---
 ## Main labels
 

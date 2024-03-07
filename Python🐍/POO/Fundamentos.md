@@ -105,7 +105,10 @@ class SubClase(SuperClase1, SuperClase2):
 - Propias del objeto, son las que llevan *self.variable* y vand entro del constructor
 - Se puede crear nuevos atributos para el objeto desde fuera de la clase: obj.new_attr = "salute"
 
+#dunders
 - TODOS los objetos de Python cuando se crean tienen propiedades y metodos predefinidos por defecto que no se pueden modificar. Sirven como metadatos del objeto, para poder identificar que funcionalidades tiene sin necesidad de tener el codigo. (Reflexion)
+- Estos objetos se pueden modificar su funcionamiento segun sea la necesidad
+
     - \_\_dict__ : Es un diccionario que contiene las propiedades(variables) con su valor del objeto, incluyendo las variables 'privadas'
     - \_\_name__ : que nos dara el nombre de la clase del objeto. La podemos usar junto con la funcion type(n) que se le pasa de parametro el objeto y con ' type(object).\_\_name__ ' podemos saber la clase que creo un objeto. Este atributo SOLO es de las clases.
     - \_\_module__ : Indica si el codigo en cuestion es un modulo o no. Existe tanto en el objeto como en la clase.
@@ -113,7 +116,23 @@ class SubClase(SuperClase1, SuperClase2):
     - Metodo \_\_str__ : Cuando imprimimos *print(objeto)* ejecutara este metodo. Recomendable sobrescribirlo para que nos muestre algo legible, lo tienen todos los objetos
 		- Si una subclase no tiene definida su propiedad \_\_str__, usara el de la superclase. 
 	- \_\_class__ : Devuelve la clase a la que pertenece un objeto. Las clases son objetos de la superclase *type*
+	- \_\_len__: Metodo especial que devuelve la longitud del objeto. 
+	- \_\_iter__ / \_\_next__
+	- \_\_getitem__ : Metodo especial que devuelve el indice de una lista:
 
+```python
+class miLista:
+	def __init__(self):
+		self.data = [1,2,3,4,5]
+
+	def __getitem__(self,index):
+		return self.data[index]
+
+lista = miLista()
+print(lista[1])  # Entraria en accion el metodo __getitem__
+```
+
+#encapsulamientoPython
 - Se puede acceder a una variable de instancia o de clase privada anteponiendo el nombre de la clase mas _ al comienzo. *NO RECOMENDABLE*
 ```python
 pais_peru = Paises("Peru","Lima")
@@ -173,7 +192,6 @@ except Exception as e:      # Con la palabra reservada 'as' capturo el objeto cr
 
 * Revisar ejercicio de mine_exec.py para mayor detalle.
 
-RESUMEN: La sintaxis except Exception_Name as exception_object: te permite interceptar un objeto que contiene información sobre una excepción pendiente. La propiedad del objeto llamada args (una tupla) almacena todos los argumentos pasados al constructor del objeto.
 
 ---
 ## Extra

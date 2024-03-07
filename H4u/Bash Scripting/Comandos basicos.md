@@ -1,4 +1,6 @@
+#ComandosLinux
 
+- aptitude : Nos da una interfaz grafica de la gestion de los paquetes del SO
 
 - id : Nos muestra los grupos que esta el usuario actual
 - command -v whoami : Reemplazo de *which* por si este no existe
@@ -151,3 +153,13 @@ cat test.txt | awk '{print $1}' | sponge test.txt # Correcto
 
 **Nota:**
 - Si revisamos el tipo de terminal $\rightarrow$ echo $TERM , y no es una xterm, sera necesario cambiarlo $\rightarrow$ export TERM=xterm
+
+---
+## Consejos
+
+	#aliasLinux
+- Crear alias en linux
+	- Entrar al archivo ~/.bashrc
+	- Agregar el alias con el siguiente formato: alias nombre_alias="direccion/binario"
+
+- dpkg -i archivo.deb : Instalar algun programa .deb

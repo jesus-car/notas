@@ -21,3 +21,12 @@
 - Formatear un string
 	- "{0} asd {1} sdf {0}".format(name,laste_name)
 	- f-string
+
+---
+## Python Library Hijacking
+
+- Secuestro de la libreria de python
+- Usamos el concepto de [[Modulos#^pathPython|Path de python]] 
+- Se crea un modulo python en el directorio actual de trabajo con el mismo nombre de un modulo que ya existe, aprovechando de que python buscara primero los modulos en el directorio actual asi de esta manera ocultando el modulo original que se encuentra en alguna direccion del path
+- En este modulo propio creado podemos introducir codigo personalizado
+- La manera de tomar ventaja es si encontramos un script de python que tenga permisos de root, se puede usar este script para importar modulos falsos con esta estrategia y liarla parda JA(modulo *os)

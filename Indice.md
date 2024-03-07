@@ -1,9 +1,9 @@
 - Java
-	- [[NewBrain/DH/JS Front/Clase 1]]
+	- [[Semana 1 - Intro JS]]
 		- [[#Memoria|Memoria]]
 		- [[#POO|POO]]
 			- [[#POO#CONSTRUCTORES|CONSTRUCTORES]]
 			- [[#POO#VARIABLES - METODOS DE CLASE|VARIABLES - METODOS DE CLASE]]
 			- [[#POO#COMPOSICION|COMPOSICION]]
-			- [[NewBrain/DH/JS Front/Clase 1#POO#DELEGACION|DELEGACION]]
+			- [[Semana 1 - Intro JS#POO#DELEGACION|DELEGACION]]
 

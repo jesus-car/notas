@@ -19,7 +19,7 @@ class MobilePhone(Phone):
 ---
 ## Python Core Syntax
 
-
+#dunderConcept
 - Metodos magicos: Todas las operaciones basicas de la syntaxis de python como (+,-,\*,...) y funciones del build in se transforman en metodos magicos. 
 	- left + right = left.\_\_add__(right)  , len('ga') = ga.\_\_len__()
 	- Estos metodos de Python core syntax, se llaman dunder methods.
@@ -35,13 +35,17 @@ def __add__(self, other):                   ## Al sumar 2 objetos de esta misma 
 - FUNCION help(obj) : Devuelve para que sirve para atributo, documentacion si es que tiene.
 * Con estas funciones podemos conocer los metodos 'built in' que puede aplicar a cualquier tipo de dato.
 
+**Pendiente:**
+- \_\_eq__(self, otro)
+	- ob1 == ob2 : Compara direcciones de memoria?
+- 
 ---
-
-## FUNCIONES
+## Funciones
 
 - Asi como la funcion print y list, hay funciones que pueden recibir un numero ilimitado de parametros. Como es esto posible?
 - Parametros \*args, \*\*kwargs: En una funcion si se espera recibir una cantidad ilimitada de parametros, estos 2 parametros especiales tienen que ir al final de los parametros esperados.
 - \*args: Es una tupla que recopila todos los argumentos posicionales que se le pasa a la funcion
+	- El 'args' es un convenio, solo es necesario agregar el \* para que se cree la tupla
 - \*\*kwargs: Es un diccionario que almacena todos los argumentos con palabra clave que se le pasa a la funcion. Donde clave:valor seria arg:value de function(atri='ga')
 
 ```python
@@ -50,50 +54,53 @@ def function(arg1, arg2, *args, **kwargs):
 function(10,20,'elem1','elem2', argument_kwargs='nuevo',argument_kwargs2='nuevito')
 ```
 
+- Ejem:
+	- Funcion print por defecto: def print(self, \*args, sep=' ', end='\n', file=None)
 
-
-- Funcion print(): def print(self, *args, sep=' ', end='\n', file=None):
 - Se puede enviar los parametros especiales a otra funcion: 
-      def combiner(a, b, *args, **kwargs):
-        super_combiner(*args, **kwargs)           <--- Se colocan los arg de la misma manera(*) para que puedan ser
-                                                       manejados de la misma manera en super_combiner.
-      def super_combiner(*my_args, **my_kwargs):       Que pasaria si se los pasa sin * ? 
-        print('my_args:', my_args)                <--- Para usar el parametro como dato se lo coloca sin los *
-        print('my_kwargs', my_kwargs)
 
-      combiner(10, '20', 40, 60, 30, argument1=50, argument2='66')
-- Ejemplo de como usar todos los tipos de parametros:
+```Python
+def combiner(a, b,*args, **kwargs):
+    super_combiner(*args, **kwargs)           # <--- Se colocan los arg de la misma manera(*) para que puedan ser
+											 #      manejados de la misma manera en super_combiner.
+def super_combiner(*my_args, **my_kwargs):  
+    print('my_args:', my_args)                # <--- Para usar el parametro como dato se lo coloca sin los *
+    print('my_kwargs', my_kwargs)
 
-    def combiner(a, b, *args, c=20, **kwargs):
-        super_combiner(c, *args, **kwargs)
-    def super_combiner(my_c, *my_args, **my_kwargs):
-        print('my_args:', my_args)
-        print('my_c:', my_c)
-        print('my_kwargs', my_kwargs)
-    combiner(1, '1', 1, 1, c=2, argument1=1, argument2='1')
+combiner(10, '20', 40, 60, 30, argument1=50, argument2='66')
+```
 
-============ DECORADOR FUNCION ==============
+---
+## Decoradores
+
 - Python puede decorar funciones, métodos y clases.
 - Se hace pasando la funcion que se quiere decorar como parametro a la funcion decorativa, y esta retornara la funcion pasada por parametro.
 - La funcion decorativa tambien puede usar los parametros de la funcion a decorar.
 - Se usan para realizar operaciones antes y despues de llamar una funcion como verificar argumentos, modificar los argumentos, medir el tiempo de ejecucion, caching, refactorizar el codigo sin modificar la funcion principal, registro de mensajes.
+- *Al agregar un decorador a una funcion, esta deja de comportarse como se programo, ahora tiene funcionalidades extras como filtros, logs, etc* 
+
 - A bit example: 
-    def decorada():
-      print("Soy una funcion")
-    def decoradora(funcion):
-      print("Es una funcion {}".format(funcion.__name__))
-      return funcion
+```python
+def decorada():
+	print("Soy una funcion")
 
-    funcion_decorada = decoradora(decorada)
-    funcion_decorada()
+def decorador(funcion):
+	print("Es una funcion {}".format(funcion.__name__))
+    return funcion
 
-* Esta aplicando un clousure?
+funcion_decorada = decorador(decorada)
+funcion_decorada()
+```
+
+
 - Syntax de los decoradores: 
-  @decoradora        <- Decorador 
-  def decorada():
-    body
+```python
+@decorador
+def decorame():
+	print("Me van a decorar XD")
 
-  decorada()         <- Al agregar el decorador, la funcion decorada deja de comportarse de como esta programado.
+decorame()        # Comportamiento diferente
+```
 
 - Se puede usar los parametros de una funcion decorada en una funcion de cierre dentro del decorador.
 def decoradora(function):
@@ -124,7 +131,9 @@ funcion   <- Solo se ejecuta una vez
 
 - Ejercicio: Decorar una operacion funcion cualquiera agregandole la fecha y hora en la que se realizo.
 
-============== DECORADOR CLASE ===============
+*Nota:* El decorador classmethod tiene utilidad en herencias
+
+============= DECORADOR CLASE ===============
 
 - Un decorador tambien puede ser una clase. La ventaja es todo lo que puede aportar una clase como herencia y capacidad de crear metodos de apoyo dedicados.
 - Para hacer esto es necesario usar el metodo especial __call__ que hace que la clase cree un objeto que actue como funcion, en este caso, como una funcion decoradora.

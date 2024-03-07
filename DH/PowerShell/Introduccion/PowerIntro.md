@@ -78,10 +78,39 @@ if ($numero1 -gt 18) {
 ```
 
 ---
-## Metodos
+## Funciones
 
-**String**
-- string.ToUpper() : Pone en mayuscula
+- Sin parametros
+```powershell
+function Una-Funcion{
+	Write-Host "Hola"
+}
+Una-Funcion
+```
+
+- Con parametros(Clasico)
+```powershell
+function Mi-Funcion{
+	param([String]$Nombre)
+
+	Write-Host "Hola $Nombre"
+}
+Mi-Funcion -Nombre "Jesus"
+```
+
+- Con parametros
+	- Mandatory=$true : El primer parametro sera obligatorio
+	- ValueFromPipeLine=$true : Puede aceptar como parametro el output de otro comando
+	- Begin, process y end son el orden de ejecucion de el codigo
+```PowerShell
+function funcion1
+{
+	param([Parameter(Mandatory=$true, ValueFromPipeLine=$true)]$var,$var2)
+	begin{"inicio"}
+	process{"Mostrar valor: " + $var, $var2}
+	end{"Fin"}
+}
+```
 
 
 ---

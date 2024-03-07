@@ -67,24 +67,85 @@ import { sum } from './modulo1'
 - Por defecto nuestro metodo sera Asincrono, si se desea que sea sincronico se agrega el Sync al terminar el metodo
 	- readFileSync(a,b)
 
+
+---
+## CALLBACK
+
+**Funciones anonimas:**
+- Son funciones que no tienen nombre, se pueden declarar de 2 maneras
+```JavaScript
+const anonima1 = function() {          // Esto no es una IIFE
+	console.log("Soy una funcion")
+}
+
+const anonima2 = () => {
+	console.log("Soy anonimo")
+}
+```
+
+**Funcion Anonima Autoejecutable(IIFE)**
+- Todo lo que esta en el primer parentesis equivale a una funcion y en el segundo sus parametros con los que se ejecutara
+- Se invoca inmediatamente
+- Uno de sus usos es par el *async await*
+```JavaScript
+(function(d,w,c) {
+	console.log(d)
+	console.log(w)
+})(document,window,console);
+```
+
+**Callback:**
+
+- Un Callback es una funcion que actua como parametro de otra funcion. Una funcion anonimoa que se pasa como parametro a otra funcion, y la otra funcion le asigna un identificador como ya se ha visto en las funciones anonimas
+
+```JavaScript
+fs.appendFile('creadoFile.txt','introduciendoTexto', (err) => { if(err) console.log(err) }
+
+function demo(variable, callback) {
+	callback()
+}
+
+demo("un string", () => {
+	console.log("Una funcion anonima")   //La funcion anonima sera asignado al parametro callback en la funcion demo, y podra ser usada dentro de esta
+})
+```
+  
+- Esto funciona en Asincrono y Sincrono
+
+**Notas:**
+* En las ultimas versiones de node los callback se reemplazan por las promesas, asi la funcion que antes requeria un callback, este ya no se lo pasa como parametro y la funcion ahora devolvera una promesa que puede ser gestionada con .then()
+* Revisar documentacion del modulo que se esta trabajando para ver si los metodos que uso que tienen callback se pueda cambiar a promesas como:
+    - const fs = require('node:fs/promises') <- ahora las funciones de fs devolveran promesas y no requeriran callbacks
+
+* En caso de que el modulo que estoy usando no tenga promesas, node nos ofrece una funcion que convierte una funcion que usa callback en promesa
+  + const { promisify } = require('node:util')
+    const readFilePromise = promisify(fs.readFile)   <-- si la funcion readFile no devuelve una promesa, readFilePromise lo hara
+
+- JSON.stringify(variableQueAlmacenaUnJson) : Convierte el json en un objeto js
+- setTimeout(callback, milisecundos)
+
 ---
 ## PROMESAS
 
+- Son objetos que representan un valor que puede estar disponible ahora, en el futuro o nunca.
 - Usado para procesamientos asincronos, funciones que demoran un cierto tiempo y se pasara a segundo plano, despues de cierto tiempo si se ha procesado exitosamente devolvera lo que se espera, o un error que lo manejaremos
-- Se crea un objeto Promise que recibira el primer parametro una funcion con los parametros resolve(objeto si devuelve lo esperado) o reject(objeto que devuelve lo inesperado.
-  + let promesa = new Promise((resolve, reject) => {    <- res y rej son funciones que almacenaran lo que se le pase como argumento(como una var)
-      resolve('Exito al procesar')
-    }
+- Metodo *then(callbackExito, callbackError)* : Se usa para adjuntar callbacks a una Promesa. Se ejecutaran cuando la Promesa se resuelva o fracase
+- Metodo *catch(callbackError)* : Maneja cualquier error durante la ejecucion de la Promesa. Es una manera mas estructurada de manejar los exitos y errores en ves de pasar 2 callbacks al then.
 
-- Promesa tiene el metodo 'then' que nos permite obtener la respuesta de la promesa. Espera una o dos funcion como parametro. LA primera funcion recibe un parametro (resultado), y la segunda funcion(opcional) recibe como parametro (error), la segunda funcion se ejecutara solo si se ejecuto el segundo parametro de la promesa osea hubo un error.
-* La logica lo damos nosotros, pero es recomendable que el primer parametro se ejecute cuando sale bien la promesa y el segundo lo ejecutamos en caso de error.
-* Los parametros de la funcion que se le pasa como parametro al constructor Promise tambien son funciones, estas funciones se ejecutaran segun la logica que le demos
+```JavaScript
+let promesa = new Promise((resolve, reject) => {
+	reject('Error!')
+})
 
-  + promesa.then((resultado) => {
-      console.log(resultado)
-    }, (error) => {
-      console.log(error)
-    })
+promesa.then((resultado) => {
+	console.log(resultado)
+}).catch((error) => {
+	console.error('La promesa fue rechazada: ' , error)
+})
+```
+
+
+
 
 FETCH
 - Recibe una url como parametro y devuelve una promesa que como ya hemos visto se puede manipular con .then
@@ -96,32 +157,6 @@ Modulo fs
 - Este modulo cuenta con un sinfin de metodos
 - const text = fs.readFileSync('./ubicacion', 'utf-8') : Sin el segundo argumento solo nos devolvera un buffer con los bytes del fichero leido
 - readFile('ubicacion', 'utf-8', callback(err, data)) : SEGUN LA DOCUMENTACION el callback debe recibir 2 parametros, el primero err sera true cuando se halle un error en la ejecucion del metodo, el segundo es el dato que ha leido del documento pasado.
-
----
-## CALLBACK
-
-- Hay algunas funciones que requieren como parametro un 'callback', esto es una funcion que se ejecutara despues de ejecutarse la funcion principal(como en una funcion que busca un archivo y no lo encuentra y ejecutara cierto mensaje si se genera un error)
-
-```JavaScript
-fs.appendFile('creadoFile.txt','introduciendoTexto', (err) => { if(err) console.log(err) }
-```
-  
-- Esto funciona en Asincrono y Sincrono
-- En Asincrono, se ejecutara cuando se termine la tarea
-
-* En las ultimas versiones de node los callback se reemplazan por las promesas, asi la funcion que antes requeria un callback, este ya no se lo pasa como parametro y la funcion ahora devolvera una promesa que puede ser gestionada con .then()
-  + Revisar documentacion del modulo que se esta trabajando para ver si los metodos que uso que tienen callback se pueda cambiar a promesas como:
-    - const fs = require('node:fs/promises') <- ahora las funciones de fs devolveran promesas y no requeriran callbacks
-
-* En caso de que el modulo que estoy usando no tenga promesas, node nos ofrece una funcion que convierte una funcion que usa callback en promesa
-  + const { promisify } = require('node:util')
-    const readFilePromise = promisify(fs.readFile)   <-- si la funcion readFile no devuelve una promesa, readFilePromise lo hara
-
-
-* En Js se puede usar metodos de tipos de dato especificos, sin necesidad de saber el tipo de dato que es.
-* JSON.stringify(variableQueAlmacenaUnJson) : Convierte el json en un objeto js
-* setTimeout(callback, milisecundos)
-
 
 
 INTERESTING MODULES

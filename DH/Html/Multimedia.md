@@ -29,3 +29,8 @@
 		- alt="descripcion"
 		- coords="123,256,123,234" : Coordenadas del area activa
 		- shape="rect"/"circle"  :especifica la forma del area activa
+
+---
+- Cuando se trabaje con JS es importante conocer los eventos y propiedades con las que se pueda trabajar con estas etiquetas
+- [HTMLMediaElement - Web APIs | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)
+

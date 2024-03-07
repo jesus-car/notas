@@ -25,6 +25,7 @@ Es acertado revisar la documentacion oficial [3.12.1 Documentation (python.org)]
 - Una expresion donde los operadores sean de la misma jerarquia se opera de izquierda a derecha, excepto en potencia, es de derecha a izquierda.
 - FUNCION len(x) : Devuelve la cantidad de elementos de un literal, o una lista.
 - FUNCION tuple() : Transforma en una tupla un iterable.
+- input("hola") : Solicita informacion al usuario y lo almacena como string
 
 - FUNCION round(a,b) : Donde a es el numero a redondear y b la cantidad de decimales.
 
