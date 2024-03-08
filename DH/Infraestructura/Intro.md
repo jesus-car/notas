@@ -10,7 +10,6 @@
 **¿Por qué es tan importante la infraestructura de IT?**
 - Si una infraestructura de IT es flexible, fiable y segura, puede ayudar a una empresa a cumplir sus objetivos y a ofrecer una ventaja competitiva en el mercado
 - De lo contrario la puede llevar a la ruina
-
 ## Arquitectura cliente-servidor
 
 **Caracteristicas:**

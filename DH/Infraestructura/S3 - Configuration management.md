@@ -21,10 +21,11 @@
 
 **Configuration management:**
 - Proceso que gestiona los cambios de configuracion de nuestros activos informaticos para una implementacion eficiente
-- Permite tener un registro historico(quien, cuando, como se realizo un cambio) y aplicar controles
+- Tener certeza de que los cambios se apliquen correctamente
+- Permite tener un registro historico(quien, cuando, como se realizo un cambio), aplicar controles, evitar duplicidad de trabajo, etc
 - Control de versiones, actualizacion concurrente
 	- Los componentes pueden tener varias branches y en alguna version posterior unirse a la branch de produccion creando una nueva version
-- Lo que se vio en Testing, el repositorio global es inmutable, cada cambio se crea una nueva version
+	- Lo que se vio en Testing, el repositorio global es inmutable, cada cambio se crea una nueva version y se trabaja en un repositorio local de manera aislada el componente a modificar
 	
 - Cada activo informatico(software o hardware) con sus dependencias(suscripciones, licencias, equipo, etc) se le conoce como *configuration items(CI)* y se almacena en *CMDB*(configuration management database)
 
@@ -93,6 +94,33 @@
 
 
 ---
+## SMC
+
+**Informacion:**
+- Provee la historia de cualquier componente: quien, que cuando y porque
+- Informacion para metricas: Esfuerzo invertido, tiempo invertido
+- Informacion es representadas por atributos
+
+**Identificacion:**
+- Se debe poder identificar cualquier version de un componente, aunque se encuentra fuera de git
+- Generacion de un sistema:
+	- Descripcion del modelo del sistema
+	- Binding del modelo
+	- Derivacion y uniones
+
+**Buildfile:**
+- Archivo de construccion para un sistema. Contiene la descripcion de:
+	- Que componentes van en el sistema
+	- Como fue su derivacion y su union
+- Es importante asociar el BuildFile al sistema generado
+
+**Baseline:**
+![[Pasted image 20240307083430.png|600]]
+- Cada release es un conjunto de versiones finales de ciertos componentes
+
+---
+## Notas
+
 **Inferencia:**
 - Configuration managment es un archivo de configuracion ubicado en el servidor(Ansible) que cualquier cambio afecta a todos los usuarios que estan vinculados a este servidor. Manda una actualizacion a todos los clientes, los trata de manera conjunta(masiva) en vez de mandar la actualizacion de manera individual
 

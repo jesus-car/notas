@@ -76,6 +76,7 @@ Todas las etiquetas html se les puede aplicar un fondo
 - background-attachment: scroll/ fixed(El fondo quedara fijo);
 - background-size: contain/cover(imagen ocupa todo el elemento)/inherit
 
+#fontsHtml
 **Fuentes seguras:**
 - Familias tipograficas preinstaladas en cualquier SO
 - Familia generica serif, sans-serif : Comodin

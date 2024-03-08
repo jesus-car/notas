@@ -53,6 +53,11 @@ La propiedad va dentro del selector que va a transicionar seleccionando que prop
 
 - transition: all 300ms;  Aplicara estilo a todos los cambios(propiedades) que se realizaran cuando se haga el :hover
 
+- Puede recibir 4 valores:
+	1. transition-property: La propiedad con la que reaccionara
+	2. transition-duration: Cuanto durara la transicion
+	3. transition-timimg-function: Control de velocidad durante la transicion. ease por defecto
+	4. transition-delay: Especifica un retraso antes que comience la transicion
 
 ## KEYFRAMES
 

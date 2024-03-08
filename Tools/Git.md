@@ -51,6 +51,7 @@ Es un sistema de control de versiones, permite regresar a una version anterior d
 
 - git remote -v : Muestra las urls que Git ha asociado al nombre y que seran usadas al leer y escribir en ese remoto
 	- git remote add \<nombre> \<url> :  Agrega un nuevo remoto, el cual puede ser llamado con el nombre, o con la url
+		- Al realizar un push, se hace con el nombre que se push: git push JesLibrary main
 	- git remote show \<remote-name> : Muestra informacion de un remoto especifico, sin especificar elnombre mostrara los nombres disponibles
 	- git remote rename \<remote-name-actual> \<remote-name-new> : Actualiza el nombre de un remoto
 	- git remote rm \<remote-name> : Elimina un remoto

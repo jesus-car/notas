@@ -1,0 +1,3 @@
+- Conceptos de proceso de release de una nueva funcionalidad en el sistema -> Testing
+- Conceptos de SCM -> Infra 1
+- 
