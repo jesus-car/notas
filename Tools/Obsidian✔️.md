@@ -10,7 +10,7 @@
 -  ' # ' : Como primer caracter en una linea mas un espacio # se crea un titulo: # Titulo
 	- Mientras mas # tenga, se crearan titulos mas peque
 - ' > ' : Al comienzo de una linea genera una identacion al contenido de esa linea. Una cita
--  ' [ ] ( ) ' : Crea un hipervinculo , donde dentro de [ Donde dare click ] y dentro de ( LINK )
+-  ' [ ] ( ) ' : Crea un hipervinculo , donde dentro de [ Donde dare click ] y dentro de ( LINK )  
 	- El link tambien puede ser una imagen
 	- Con la combinacion ctrl + K me entrega el formato
 - ' * * ' : Coloca la palabra en negrita:  **negrita**
