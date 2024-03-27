@@ -1,4 +1,4 @@
-- Sheebang: 
+- Shebang: 
 	- Siempre es recomendable colocarlo para poder ejecutarlo como un script cualquiera
 	- binario env: ubicado en /usr/bin/env , contempla varias variables de entorno entre ellas el PATH que encontrara la ubicacion de python3 donde sea que se encuentre
 	- #!/usr/bin/env python3 : Nos da la garantia que ejecutara mi script por si no se encuentra el binario de python3 en /usr/bin/python3

@@ -25,7 +25,7 @@
 	</form>
 ```
 
-- hidden = Oculta un elemento, estara presente(sigue ocupando el espacio) pero invisible. Parecido a la propiedad CSS display: none
+- hidden = Oculta un elemento, estara presente(sigue ocupando el espacio) pero invisible. Parecido a la propiedad CSS display: none, pero esta lo desaparece del flujo, como si no exitiera
 - id = Asigna un identificador UNICO para ser usado con JS y CSS para especificar funcionalidades y estilos.
 - inert = Indica que el elemento no es interactivo. No recibira eventos ni interacciones
 - is = Es para el uso en Custom Elements, especifica el nombre de la clase de un elemento personalizado.
@@ -36,5 +36,24 @@
 - style = Se usa para especificar un estilo CSS de un elemento. No es recomendable
 - tabindex = Especifica el orden en el que los elementos son recorridos cuando se tabulea, lo que tengan indice negativo no seran seleccionados.
 - title = Muestra una descripcion del elemento cuando se pasa el cursor por encima
+
+---
+
+## Formularios
+
+- required : Especifica si un campo en el formulario debe completarse antes de que se pueda enviar el formulario
+- minlength - maxlength : Especifica la longitud minima y maxima de los datos de textos
+- pattern: Especifica una RegEx que los datos deben seguir
+
+```html
+<input id="choose" name="i_like" required pattern="[Pp]látano|[Cc]ereza" />
+```
+
+**Pseudoclases:**
+
+- :required
+- :valid
+- :invalid : Cuando el valor de input no coincide con la RegEx, input aplicara la pseudoclase :invalid
+
 
 - Metadatos - Microdata 

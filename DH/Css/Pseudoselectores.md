@@ -31,13 +31,32 @@ Se aplica sobre un selector especifico
 
 Manipula el contenido de un elemento html pudiendo agregar contenido antes o despues del contenido ya existente.
 
-- ::before / ::after 
+- ::before / ::after : Crea nuevos elementos *HIJOS* que NO FORMAN PARTE DEL DOM
+	- Debe tener la propiedad 'content' si o si
+	- Se usan para cosas decorativas
+
+```css
+.dialogo::after{
+	content: '';   /* Al agregar contenido, se introduce en la etiqueta que se escogio */
+	display: block;   /* Estaria agregando una etiqueta tipo bloque DENTRO de la etiqueta seleccionada y al final*/
+}
+```
+
+
 - ::placeholder : Le da estilo al placeholder de los campos de texto
 ```css
 	p::before {
 		content: 'Texto insertado antes';
 		color: blue;
 	}
+```
+
+- ::selection : Es un elemento dentro de otro, que captura la seleccion del content ejem:
+
+```css
+.dialogo::selection{         /* Capturo el pseudo elemento selection del elemento html dialogo y le doy un background rojo*/
+	background: red;        
+}
 ```
 
 

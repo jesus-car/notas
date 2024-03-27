@@ -8,7 +8,7 @@
 ```html
 <script src="unScript.js"></script>
 ```
-
+- Debe ser la ultima etiqueta de body
 
 **Baby steps:**
 - console.error("error")
@@ -20,6 +20,7 @@
 - prompt("escribe algo"):  El usuario puede ingresar texto que podra ser almacenado como string
 	- Si el usuario no introduce nada, devuelve un string vacio
 
+#notasJS
 - Para realizar ciertas validaciones en entradas de usuario se usa bastante los *REGEX*
 - *type of* var : Nos devuelve el tipo de dato
 - *undefined:* Variable que no se le asigno ningun valor al crearle -> let a;
@@ -42,6 +43,7 @@ let {nombre,apellido,edad} = persona    // La variable tiene que llamarse igual 
 ```
 
 ---
+#mathJS
 ## [**Class Math**](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 **Metodos:**

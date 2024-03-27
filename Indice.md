@@ -1,9 +1,9 @@
 - Java
-	- [[Semana 1 - Intro JS]]
+	- [[S-1 - Intro JS]]
 		- [[#Memoria|Memoria]]
 		- [[#POO|POO]]
 			- [[#POO#CONSTRUCTORES|CONSTRUCTORES]]
 			- [[#POO#VARIABLES - METODOS DE CLASE|VARIABLES - METODOS DE CLASE]]
 			- [[#POO#COMPOSICION|COMPOSICION]]
-			- [[Semana 1 - Intro JS#POO#DELEGACION|DELEGACION]]
+			- [[S-1 - Intro JS#POO#DELEGACION|DELEGACION]]
 

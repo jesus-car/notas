@@ -12,3 +12,4 @@
 
 **Metodos:**
 - reload() : Permite recargar la pagina actual
+- 

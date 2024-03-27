@@ -38,7 +38,8 @@ Propiedades que se aplicaran al contenedor padre para la distribucion de sus ele
 - align-self:  Tiene las mismas propiedades que *align-items* pero solo aplicara al item que fue seleccionado
 - flex-grow: 0(default); Si el flex-box tiene espacio vacio, el flex-item que tenga esta propiedad en 1 ocupara el 100% del espacio disponible
 
-
+---
+#medidasHtml 
 ## MEDIDA RELATIVA
 
 **VIEWPORT**
@@ -54,9 +55,17 @@ Propiedades que se aplicaran al contenedor padre para la distribucion de sus ele
 - % : Toman como referencia su contenedor directo
 - 10vw(viewport-width) : Toma de referencia el ancho del viewport. 10% en este ejemplo
 - 10vh(viewport-height) : Toma de referencia el alto del viewport
-- em: Toma de referencia al elemento padre
+- em: Toma de referencia el font-size del elemento padre
 - rem : Toma referencia a la medida del html, por default 16px
+- dvh
+- svh
+- lvh
 
+**Propiedades:**
+- max-width: 500px;
+- max-height: 500px;
+- min width: 100px
+- min-height: 100px;
 ## MEDIA QUERI
 
 - Aplican un conjunto de estilos si se cumplen unas condiciones

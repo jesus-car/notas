@@ -43,7 +43,7 @@ function limita(maximoCaracteres) {
 
 
 ---
-
+#eventosForm
 ## Eventos
 
 - focus : Cuando el usuario ingresa el cursor dentro de un campo imput (hace click)
@@ -62,7 +62,7 @@ campoNombre.addEventListener("focus", e => {
 	console.log(1)                                  // Se lanzara esta accion cada vez que el focus este en el campoNombre
 })
 
-form.addEventListener("submit", e => {
+form.addEventListener("submit", e => {      //El evento submit es del form, no del boton submit
 	if(checkFormulario() == false) {    // Supongamos que la funcion checkFormulario() nos devuelve true si el formulario esta ok, o false si no paso las validaciones
 		e.preventDefault()
 	}
@@ -102,5 +102,9 @@ window.addEventListener("load", () => {
 ```
 
 *Nota:* Las validaciones tambien se realizan desde el servidor, por ejemplo a la hora de logearse a un sitio web, es necesario validar si las credenciales son correctas, esta validacion se hace en la base de datos
+- Las validaciones en el servidor tambien son necesarias ya que las validaciones desde el front son faciles de burlar
+
+- Cuando se quiere seleccionar todos los elementos que tengan un atributo especifico:
+`const hobbies = document.querySelectorAll('[name=hobbies]'` 
 
 

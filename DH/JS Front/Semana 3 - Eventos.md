@@ -10,13 +10,18 @@
 
 
 **Metodos:**
-- addEventoListener('event' , callback ) : Este metodo se agrega a cualquier elemento html para que este a la escucha del 'event' especificado en el primer parametro. Cuando ocurra el evento se ejecutara el callback
+- addEventoListener('event' , callback, opcional ) : Este metodo se agrega a cualquier elemento html para que este a la escucha del 'event' especificado en el primer parametro. Cuando ocurra el evento se ejecutara el callback
 	- Con este metodo a un mismo elemento puedo agregarle diferentes eventos y sucederan todas en simultaneo
-
+	- Opcional, values:
+		- capture: 
+		- one: Se activa el evento solo una vez, luego se aplica el preventDefault()
+		- passive: Crea un evento pasivo
+		  
 
 - on*load* = callback : Se aplica al elemento que estara a la escucha del evento requerido, todos los eventos comienzan con 'on'. El callback pasado se ejecutara cuando el evento se realize
 	- A diferencia del addEventListener, el elemento solo podra tener un evento a la vez.
 
+#importanteJS
 ```JavaScript
 window.onload = () => {
 	console.log(1)
@@ -64,7 +69,10 @@ for (elemento of elementos){
 	})
 }
 ```
+
+
 ---
+#eventJS
 ## Eventos
 
 Documentacion: [Eventos](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
@@ -83,6 +91,7 @@ Documentacion: [Eventos](https://developer.mozilla.org/en-US/docs/Learn/JavaScri
 
 **Variable de event:**
 - target: Me devuelve el elemento donde se hizo click.
+	- Antiguamente se usaba 'srcElement', ahora se usa target
 
 ```JavaScript
 boton.addEventListener("click", e => {
@@ -109,3 +118,22 @@ window.addEventListener("keypres", e => {
 	console.log(e.key)
 })
 ```
+
+
+---
+#inputJS
+## Evento input
+
+- Se dispara cuando el *value* de un elemento *input, select o textarea* ha sido cambiado
+
+```JavaScript
+
+input.addEventListener("input", e =>{
+	log.textContent = e.srcElement.value  // Devuelve el value del elemento que se esta interactuando
+})
+```
+
+**Evento change:**
+- A diferencia del input este no cambia por cada modificacion del area de text
+- Cambia cuando un input radio o chekcbox cambia
+- Reacciona cuando se escribe un texto en un input text y pierde el foco

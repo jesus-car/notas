@@ -14,7 +14,7 @@
 
 ---
 
-#fontAwesome
+#fontAwesome #iconos
 **Font Awesome:**
 
 - Pagina de iconos
@@ -29,6 +29,15 @@
 <i class="fas fa-camera"></i>
 ```
 - Usando la clase que nos ofrece podemos aplicarle estilo a los iconos
+
+**BoxIcons**
+- Buscar el icono
+- Copiar el codigo SVG
+- Crear una carpeta de iconos
+- Crear un archivo.svg y pegar el codigo
+- Podemos usar los iconos en las etiquetas img
+- Podemos personalizarlo desde el codigo svg en la parte style
+
 
 ---
 ## Main labels

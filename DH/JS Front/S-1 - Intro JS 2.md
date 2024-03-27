@@ -45,4 +45,24 @@ function Animal(nombre,genero){                  // Los objetos al crearse solo 
 Animal.prototype.sonar = function() {            //Sus metodos se accedera de esta manera
 	console.log("Estoy sonando")
 }
+
+const snopy = Animal("snopy","macho")
+
+snopy.sonar()
+```
+
+**Herencia**
+
+```JavaScript
+function Perro(nombre, genero, size){
+	this.super = Animal
+	this.super(nombre,genero)
+	this.size = size
+}
+
+Perro.prototype = new Animal()  // En esta linea se realiza la herencia
+Perro.prototype.constructor = Perro
+Perro.prototype.sonar = function() {      // Sobrescribiendo el metodo, @override
+	console.log("Wof!")
+}
 ```

@@ -94,7 +94,9 @@ const anonima2 = () => {
 })(document,window,console);
 ```
 
-**Callback:**
+---
+#callback
+## Callback
 
 - Un Callback es una funcion que actua como parametro de otra funcion. Una funcion anonimoa que se pasa como parametro a otra funcion, y la otra funcion le asigna un identificador como ya se ha visto en las funciones anonimas
 
@@ -111,6 +113,7 @@ demo("un string", () => {
 ```
   
 - Esto funciona en Asincrono y Sincrono
+- Los callback se vuelven un problema cuando se anidan demasiado, para realizar el siguiente procedimiento depende del anterior y asi sucesivamente se hace un anidamiento de callbacks, para eso vinieron a solucionar las promesas
 
 **Notas:**
 * En las ultimas versiones de node los callback se reemplazan por las promesas, asi la funcion que antes requeria un callback, este ya no se lo pasa como parametro y la funcion ahora devolvera una promesa que puede ser gestionada con .then()
@@ -125,6 +128,7 @@ demo("un string", () => {
 - setTimeout(callback, milisecundos)
 
 ---
+#promesas #promise
 ## PROMESAS
 
 - Son objetos que representan un valor que puede estar disponible ahora, en el futuro o nunca.
@@ -146,11 +150,7 @@ promesa.then((resultado) => {
 
 
 
-
-FETCH
-- Recibe una url como parametro y devuelve una promesa que como ya hemos visto se puede manipular con .then
-  + fetch('https://holi.boli').then((res) => res.json()).then ((json) => console.log(json))
-
+---
 
 
 Modulo fs

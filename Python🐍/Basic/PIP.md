@@ -14,4 +14,5 @@
 - pip install -U package_name : Actualiza a la version mas reciente el package_name
 - pip install package_name\==version_package : Actualiza el package a la version seleccionada
 - pip uninstall package_name : Desinstala el paquete seleccionado.
- 
+
+- python -m pip install -upgrade pip

@@ -6,7 +6,7 @@
 		- src="direction_source" 
 		- type="video/mp4"
 		- media"(max-width: 480px)"
-- \<img> (l) : Etiqueta para referenciar imagenes. No necesita cierre
+- \<img> (l) : Etiqueta para referenciar imagenes. No necesita cierre, es de linea
 	- src="..." : Ruta de la imagen, puede ser absoluta(de internet) o relativa
 	- alt="text" : Texto descriptivo para la imagen
 	- width="234" , height="432" : Establece dimensiones de la imagen

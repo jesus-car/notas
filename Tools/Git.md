@@ -84,3 +84,9 @@ git branch "new rama"
 git branch -m "nuevo nombre"
 git branch -d "rama eliminada"
 git push origin --delete "rama remota eliminada"
+
+---
+## Extra
+
+- svn checkout https://github.com/vulhub/vulhub/tree/master/kibana/CVE-2018-17246
+	- Cambiar la URL por: svn checkout https://github.com/vulhub/vulhub/trunk/kibana/CVE-2018-17246
