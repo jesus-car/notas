@@ -8,7 +8,7 @@
 - '------' : Colocando solo guiones en una linea se creara un separador 
 - ' # ' : Dentro de una linea se pueden crear tags con :  #tag
 -  ' # ' : Como primer caracter en una linea mas un espacio # se crea un titulo: # Titulo
-	- Mientras mas # tenga, se crearan titulos mas peque
+	- Mientras mas # tenga, se crearan titulos mas peque 
 - ' > ' : Al comienzo de una linea genera una identacion al contenido de esa linea. Una cita
 -  ' [ ] ( ) ' : Crea un hipervinculo , donde dentro de [ Donde dare click ] y dentro de ( LINK )  
 	- El link tambien puede ser una imagen
